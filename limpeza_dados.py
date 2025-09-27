@@ -3,7 +3,8 @@ from datetime import datetime as date
 
 class Produto:
 
-    def __init__(self, nome, categoria, preco):
+    def __init__(self, id, nome, categoria, preco):
+        self.id = id
         self.nome = nome
         self.categoria = categoria
         self.preco = preco
@@ -22,27 +23,27 @@ class Dados:
     def montar_dados(self): 
 
 
-        produto1 = Produto("Paracetamol 500mg", "Medicamentos", 7.50)
-        produto2 = Produto("Dipirona 500mg", "Medicamentos", 5.90)
-        produto3 = Produto("Ibuprofeno 400mg", "Medicamentos", 8.90)
-        produto4 = Produto("Sabonete Lux", "Produtos de higiene pessoal", 3.50)
-        produto5 = Produto("Shampoo Seda", "Produtos de higiene pessoal", 9.90)
-        produto6 = Produto("Creme Dental Colgate", "Produtos de higiene pessoal", 6.90)
-        produto7 = Produto("Batom Maybelline", "Produtos de beleza", 29.90)
-        produto8 = Produto("Base Vult", "Produtos de beleza", 35.90)
-        produto9 = Produto("Perfume Natura", "Produtos de beleza", 89.90)
-        produto10 = Produto("Multivitamínico Centrum", "Produtos de bem-estar", 29.90)
-        produto11 = Produto("Ômega 3 Sundown", "Produtos de bem-estar", 49.90)
-        produto12 = Produto("Chá de Camomila", "Produtos de bem-estar", 4.90)
-        produto13 = Produto("Fralda Pampers Confort Sec G", "Produtos para bebês", 189.90)
-        produto14 = Produto("Lenço Umedecido Huggies", "Produtos para bebês", 9.90)
-        produto15 = Produto("Fórmula Infantil Nan", "Produtos para bebês", 39.90)
-        produto16 = Produto("Gaze Estéril", "Produtos hospitalares e de primeiros socorros", 6.90)
-        produto17 = Produto("Álcool 70%", "Produtos hospitalares e de primeiros socorros", 3.90)
-        produto18 = Produto("Termômetro Digital", "Produtos hospitalares e de primeiros socorros", 45.90)
-        produto19 = Produto("Chocolate Snickers", "Produtos de conveniência", 5.49)
-        produto20 = Produto("Biscoito Oreo", "Produtos de conveniência", 6.90)
-        produto21 = Produto("Suco de Laranja Del Valle", "Produtos de conveniência", 4.90)
+        produto1 = Produto(1, "Paracetamol 500mg", "Medicamentos", 7.5000)
+        produto2 = Produto(2, "Dipirona 500mg", "Medicamentos", 5.9090)
+        produto3 = Produto(3, "Ibuprofeno 400mg", "Medicamentos", 8.9098)
+        produto4 = Produto(4, "Sabonete Lux", "Produtos de higiene pessoal", 3.5013)
+        produto5 = Produto(5, "Shampoo Seda", "Produtos de higiene pessoal", 9.9543)
+        produto6 = Produto(6, "Creme Dental Colgate", "Produtos de higiene pessoal", 6.95098)
+        produto7 = Produto(7, "Batom Maybelline", "Produtos de beleza", 29.9012)
+        produto8 = Produto(8, "Base Vult", "Produtos de beleza", 35.9032)
+        produto9 = Produto(9, "Perfume Natura", "Produtos de beleza", 89.993232)
+        produto10 = Produto(10, "Multivitamínico Centrum", "Produtos de bem-estar", 29.9099)
+        produto11 = Produto(11, "Ômega 3 Sundown", "Produtos de bem-estar", 49.90332)
+        produto12 = Produto(12, "Chá de Camomila", "Produtos de bem-estar", 4.9012)
+        produto13 = Produto(13, "Fralda Pampers Confort Sec G", "Produtos para bebês", 189.9032)
+        produto14 = Produto(14, "Lenço Umedecido Huggies", "Produtos para bebês", 9.90323)
+        produto15 = Produto(15, "Fórmula Infantil Nan", "Produtos para bebês", 39.90323)
+        produto16 = Produto(16, "Gaze Estéril", "Produtos hospitalares e de primeiros socorros", 6.90213)
+        produto17 = Produto(17, "Álcool 70%", "Produtos hospitalares e de primeiros socorros", 3.903232)
+        produto18 = Produto(18, "Termômetro Digital", "Produtos hospitalares e de primeiros socorros", 45.9032)
+        produto19 = Produto(19, "Chocolate Snickers", "Produtos de conveniência", 5.49233)
+        produto20 = Produto(20, "Biscoito Oreo", "Produtos de conveniência", 6.90323)
+        produto21 = Produto(21, "Suco de Laranja Del Valle", "Produtos de conveniência", 4.90323)
 
         
         dados_um = Dados(1, date(2023, 1, 1), produto10, 4)
@@ -817,6 +818,35 @@ class Dados:
         dados_novembro = [dados_seiscentos_e_um, dados_seiscentos_e_dois, dados_seiscentos_e_tres, dados_seiscentos_e_quatro, dados_seiscentos_e_cinco, dados_seiscentos_e_seis, dados_seiscentos_e_sete, dados_seiscentos_e_oito, dados_seiscentos_e_nove, dados_seiscentos_e_dez, dados_seiscentos_e_onze, dados_seiscentos_e_doze, dados_seiscentos_e_treze, dados_seiscentos_e_quatorze, dados_seiscentos_e_quinze, dados_seiscentos_e_dezesseis, dados_seiscentos_e_dezessete, dados_seiscentos_e_dezoito, dados_seiscentos_e_dezenove, dados_seiscentos_e_vinte, dados_seiscentos_e_vinte_e_um, dados_seiscentos_e_vinte_e_dois, dados_seiscentos_e_vinte_e_tres, dados_seiscentos_e_vinte_e_quatro, dados_seiscentos_e_vinte_e_cinco, dados_seiscentos_e_vinte_e_seis, dados_seiscentos_e_vinte_e_sete, dados_seiscentos_e_vinte_e_oito, dados_seiscentos_e_vinte_e_nove, dados_seiscentos_e_trinta, dados_seiscentos_e_trinta_e_um, dados_seiscentos_e_trinta_e_dois, dados_seiscentos_e_trinta_e_tres, dados_seiscentos_e_trinta_e_quatro, dados_seiscentos_e_trinta_e_cinco, dados_seiscentos_e_trinta_e_seis, dados_seiscentos_e_trinta_e_sete, dados_seiscentos_e_trinta_e_oito, dados_seiscentos_e_trinta_e_nove, dados_seiscentos_e_quarenta, dados_seiscentos_e_quarenta_e_um, dados_seiscentos_e_quarenta_e_dois, dados_seiscentos_e_quarenta_e_tres, dados_seiscentos_e_quarenta_e_quatro, dados_seiscentos_e_quarenta_e_cinco, dados_seiscentos_e_quarenta_e_seis, dados_seiscentos_e_quarenta_e_sete, dados_seiscentos_e_quarenta_e_oito, dados_seiscentos_e_quarenta_e_nove, dados_seiscentos_e_cinquenta, dados_seiscentos_e_cinquenta_e_um, dados_seiscentos_e_cinquenta_e_dois, dados_seiscentos_e_cinquenta_e_tres, dados_seiscentos_e_cinquenta_e_quatro, dados_seiscentos_e_cinquenta_e_cinco, dados_seiscentos_e_cinquenta_e_seis, dados_seiscentos_e_cinquenta_e_sete, dados_seiscentos_e_cinquenta_e_oito, dados_seiscentos_e_cinquenta_e_nove, dados_seiscentos_e_sessenta]
         dados_dezembro = [dados_seiscentos_e_sessenta_e_um, dados_seiscentos_e_sessenta_e_dois, dados_seiscentos_e_sessenta_e_tres, dados_seiscentos_e_sessenta_e_quatro, dados_seiscentos_e_sessenta_e_cinco, dados_seiscentos_e_sessenta_e_seis, dados_seiscentos_e_sessenta_e_sete, dados_seiscentos_e_sessenta_e_oito, dados_seiscentos_e_sessenta_e_nove, dados_seiscentos_e_setenta, dados_seiscentos_e_setenta_e_um, dados_seiscentos_e_setenta_e_dois, dados_seiscentos_e_setenta_e_tres, dados_seiscentos_e_setenta_e_quatro, dados_seiscentos_e_setenta_e_cinco, dados_seiscentos_e_setenta_e_seis, dados_seiscentos_e_setenta_e_sete, dados_seiscentos_e_setenta_e_oito, dados_seiscentos_e_setenta_e_nove, dados_seiscentos_e_oitenta, dados_seiscentos_e_oitenta_e_um, dados_seiscentos_e_oitenta_e_dois, dados_seiscentos_e_oitenta_e_tres, dados_seiscentos_e_oitenta_e_quatro, dados_seiscentos_e_oitenta_e_cinco, dados_seiscentos_e_oitenta_e_seis, dados_seiscentos_e_oitenta_e_sete, dados_seiscentos_e_oitenta_e_oito, dados_seiscentos_e_oitenta_e_nove, dados_seiscentos_e_noventa, dados_seiscentos_e_noventa_e_um, dados_seiscentos_e_noventa_e_dois, dados_seiscentos_e_noventa_e_tres, dados_seiscentos_e_noventa_e_quatro, dados_seiscentos_e_noventa_e_cinco, dados_seiscentos_e_noventa_e_seis, dados_seiscentos_e_noventa_e_sete, dados_seiscentos_e_noventa_e_oito, dados_seiscentos_e_noventa_e_nove, dados_setecentos, dados_setecentos_e_um, dados_setecentos_e_dois, dados_setecentos_e_tres, dados_setecentos_e_quatro, dados_setecentos_e_cinco, dados_setecentos_e_seis, dados_setecentos_e_sete, dados_setecentos_e_oito, dados_setecentos_e_nove, dados_setecentos_e_dez, dados_setecentos_e_onze, dados_setecentos_e_doze, dados_setecentos_e_treze, dados_setecentos_e_quatorze, dados_setecentos_e_quinze, dados_setecentos_e_dezesseis, dados_setecentos_e_dezessete, dados_setecentos_e_dezoito, dados_setecentos_e_dezenove, dados_setecentos_e_vinte]
 
+        return [dados_janeiro, dados_fevereiro, dados_marco, dados_abril, dados_maio, dados_junho, dados_julho, dados_agosto, dados_setembro,
+                dados_outubro, dados_novembro, dados_dezembro]
+
+    
+    def montar_data_set(self):
+        lista_base = dadosInstanc.montar_dados()
+
+        dados_janeiro = lista_base[0]
+        dados_fevereiro = lista_base[1]
+        dados_marco = lista_base[2]
+        dados_abril = lista_base[3]
+        dados_maio = lista_base[4]
+        dados_junho = lista_base[5]
+        dados_julho = lista_base[6]
+        dados_agosto = lista_base[7]
+        dados_setembro = lista_base[8]
+        dados_outubro = lista_base[9]
+        dados_novembro = lista_base[10]
+        dados_dezembro = lista_base[11]
+
+        dataset = {"janeiro" : dados_janeiro, "fevereiro" : dados_fevereiro,
+                    "marco" : dados_marco, "abril" : dados_abril, "maio" : dados_maio,
+                    "junho" : dados_junho,  "julho" : dados_julho, "agosto" : dados_agosto, 
+                    "setembro" : dados_setembro, "outubro" : dados_outubro, 
+                    "novembro" : dados_novembro, "dezembro" : dados_dezembro}
+
+
+
+    
 
 dados = Dados(2, 2, "a", 1)
 dados.montar_dados()      
