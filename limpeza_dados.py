@@ -1,5 +1,5 @@
 from datetime import datetime as date
-
+from decimal import Decimal, ROUND_DOWN
 
 class Produto:
 
@@ -31,8 +31,8 @@ class Dados:
         produto6 = Produto(6, "Creme Dental Colgate", "Produtos de higiene pessoal", 6.95098)
         produto7 = Produto(7, "Batom Maybelline", "Produtos de beleza", 29.9012)
         produto8 = Produto(8, "Base Vult", "Produtos de beleza", 35.9032)
-        produto9 = Produto(9, "Perfume Natura", "Produtos de beleza", 89.993232)
-        produto10 = Produto(10, "Multivitamínico Centrum", "Produtos de bem-estar", 29.9099)
+        produto9 = Produto(9, "Perfume Natura", "Não consta", 89.993232)
+        produto10 = Produto(10, "", "Produtos de bem-estar", 29.9099)
         produto11 = Produto(11, "Ômega 3 Sundown", "Produtos de bem-estar", 49.90332)
         produto12 = Produto(12, "Chá de Camomila", "Produtos de bem-estar", 4.9012)
         produto13 = Produto(13, "Fralda Pampers Confort Sec G", "Produtos para bebês", 189.9032)
@@ -821,9 +821,57 @@ class Dados:
         return [dados_janeiro, dados_fevereiro, dados_marco, dados_abril, dados_maio, dados_junho, dados_julho, dados_agosto, dados_setembro,
                 dados_outubro, dados_novembro, dados_dezembro]
 
-    
+
+    def formatar_numero(self, num):
+
+        numEmStr = str(num)
+
+        numCortado = numEmStr.split('.')
+        numero_para_concatenar = numCortado[0]
+        decimal = numCortado[1]
+
+        contador = 0
+        listaDoDecimal = []
+        while (contador <= 1):
+            listaDoDecimal.append(decimal[contador])
+            contador += 1
+
+        numFinalStr = numero_para_concatenar +'.'+numEmStr[0] + numEmStr[1]
+        numFinal = float(numFinalStr)
+        return numFinal
+
     def montar_data_set(self):
-        lista_base = dadosInstanc.montar_dados()
+        lista_base = self.montar_dados()
+
+        """
+        essa é uma forma de segurança para garantia de que se tiver alguma informação faltante 
+        vou conseguir buscar em outra fonte.
+        """
+        produto1 = Produto(1, "", "Medicamentos", 7.5000)
+        produto2 = Produto(2, "Dipirona 500mg", "Medicamentos", 5.9090)
+        produto3 = Produto(3, "Ibuprofeno 400mg", "Medicamentos", 8.9098)
+        produto4 = Produto(4, "Sabonete Lux", "Produtos de higiene pessoal", 3.5013)
+        produto5 = Produto(5, "Shampoo Seda", "Produtos de higiene pessoal", 9.9543)
+        produto6 = Produto(6, "Creme Dental Colgate", "Produtos de higiene pessoal", 6.95098)
+        produto7 = Produto(7, "Batom Maybelline", "Produtos de beleza", 29.9012)
+        produto8 = Produto(8, "Base Vult", "Produtos de beleza", 35.9032)
+        produto9 = Produto(9, "Perfume Natura", "Não consta", 89.993232)
+        produto10 = Produto(10, "Multivitamínico Centrum", "Produtos de bem-estar", 29.9099)
+        produto11 = Produto(11, "Ômega 3 Sundown", "Produtos de bem-estar", 49.90332)
+        produto12 = Produto(12, "Chá de Camomila", "Produtos de bem-estar", 4.9012)
+        produto13 = Produto(13, "Fralda Pampers Confort Sec G", "Produtos para bebês", 189.9032)
+        produto14 = Produto(14, "Lenço Umedecido Huggies", "Produtos para bebês", 9.90323)
+        produto15 = Produto(15, "Fórmula Infantil Nan", "Produtos para bebês", 39.90323)
+        produto16 = Produto(16, "Gaze Estéril", "Produtos hospitalares e de primeiros socorros", 6.90213)
+        produto17 = Produto(17, "Álcool 70%", "Produtos hospitalares e de primeiros socorros", 3.903232)
+        produto18 = Produto(18, "Termômetro Digital", "Produtos hospitalares e de primeiros socorros", 45.9032)
+        produto19 = Produto(19, "Chocolate Snickers", "Produtos de conveniência", 5.49233)
+        produto20 = Produto(20, "Biscoito Oreo", "Produtos de conveniência", 6.90323)
+        produto21 = Produto(21, "Suco de Laranja Del Valle", "Produtos de conveniência", 4.90323)
+
+        lista_de_emergencia_produtos = [produto1, produto2, produto3, produto4, produto5, produto6, produto7,
+                                        produto8, produto9, produto10, produto11, produto12, produto13, produto14, produto15,
+                                        produto16, produto17, produto18, produto19, produto20, produto21]
 
         dados_janeiro = lista_base[0]
         dados_fevereiro = lista_base[1]
@@ -838,15 +886,51 @@ class Dados:
         dados_novembro = lista_base[10]
         dados_dezembro = lista_base[11]
 
-        dataset = {"janeiro" : dados_janeiro, "fevereiro" : dados_fevereiro,
+
+        dataset_vendas_meses = {"janeiro" : dados_janeiro, "fevereiro" : dados_fevereiro,
                     "marco" : dados_marco, "abril" : dados_abril, "maio" : dados_maio,
                     "junho" : dados_junho,  "julho" : dados_julho, "agosto" : dados_agosto, 
                     "setembro" : dados_setembro, "outubro" : dados_outubro, 
                     "novembro" : dados_novembro, "dezembro" : dados_dezembro}
+        
+        dados_janeiro_tratados = []
+        contador = 0
+        while(contador < 720):
+            if contador >= 0 and contador <= 59:
+                if(dataset_vendas_meses["janeiro"][contador].produto.nome == "" or dataset_vendas_meses["janeiro"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
+                            dataset_vendas_meses["janeiro"][contador].produto.nome = item.nome
+                            break
 
+                if(dataset_vendas_meses["janeiro"][contador].produto.categoria == "" or dataset_vendas_meses["janeiro"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
+                            dataset_vendas_meses["janeiro"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["janeiro"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["janeiro"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["janeiro"][contador].produto.preco)
+                dataset_vendas_meses["janeiro"][contador].produto.preco = precoDefinitivo
+
+            contador +=1    
+    
+        
+        
+
+
+        return dataset_vendas_meses
 
 
     
 
-dados = Dados(2, 2, "a", 1)
-dados.montar_dados()      
+dados = Dados(2, 2, "a", 1)    
+dados.montar_data_set()
