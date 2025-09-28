@@ -824,21 +824,22 @@ class Dados:
 
     def formatar_numero(self, num):
 
-        numEmStr = str(num)
+        num_em_str = str(num)
 
-        numCortado = numEmStr.split('.')
-        numero_para_concatenar = numCortado[0]
-        decimal = numCortado[1]
+        num_cortado = num_em_str.split('.')
+        numero_para_concatenar = num_cortado[0]
+        numero_decimal_para_formatar = num_cortado[1]
+        decimal = num_cortado[1]
 
         contador = 0
-        listaDoDecimal = []
+        lista_do_decimal = []
         while (contador <= 1):
-            listaDoDecimal.append(decimal[contador])
+            lista_do_decimal.append(decimal[contador])
             contador += 1
 
-        numFinalStr = numero_para_concatenar +'.'+numEmStr[0] + numEmStr[1]
-        numFinal = float(numFinalStr)
-        return numFinal
+        num_final_str = numero_para_concatenar +'.'+lista_do_decimal[0] + lista_do_decimal[1]
+        num_final = float(num_final_str)
+        return num_final
 
     def montar_data_set(self):
         lista_base = self.montar_dados()
@@ -894,6 +895,18 @@ class Dados:
                     "novembro" : dados_novembro, "dezembro" : dados_dezembro}
         
         dados_janeiro_tratados = []
+        dados_fevereiro_tratados = []
+        dados_marco_tratados = []
+        dados_abril_tratados = []
+        dados_maio_tratados = []
+        dados_junho_tratados = []
+        dados_julho_tratados = []
+        dados_agosto_tratados = []
+        dados_setembro_tratados = []
+        dados_outubro_tratados = []
+        dados_novembro_tratados = []
+        dados_dezembro_tratados = []
+
         contador = 0
         while(contador < 720):
             if contador >= 0 and contador <= 59:
@@ -915,12 +928,250 @@ class Dados:
                         if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
                             self.formatar_numero(item.preco)
                             dataset_vendas_meses["janeiro"][contador].produto.preco = item.preco
-
                             break
 
                 precoDefinitivo = self.formatar_numero(dataset_vendas_meses["janeiro"][contador].produto.preco)
                 dataset_vendas_meses["janeiro"][contador].produto.preco = precoDefinitivo
+                dados_janeiro_tratados.append(dataset_vendas_meses["janeiro"][contador])
 
+            if contador >= 60 and contador <= 119:
+                if(dataset_vendas_meses["fevereiro"][contador].produto.nome == "" or dataset_vendas_meses["fevereiro"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
+                            dataset_vendas_meses["fevereiro"][contador].produto.nome = item.nome
+                            break
+
+                if(dataset_vendas_meses["fevereiro"][contador].produto.categoria == "" or dataset_vendas_meses["fevereiro"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
+                            dataset_vendas_meses["fevereiro"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["fevereiro"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["fevereiro"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["fevereiro"][contador].produto.preco)
+                dataset_vendas_meses["fevereiro"][contador].produto.preco = precoDefinitivo
+                dados_fevereiro_tratados.append(dataset_vendas_meses["fevereiro"][contador])
+
+            if contador >= 120 and contador <= 179:
+                if(dataset_vendas_meses["marco"][contador].produto.nome == "" or dataset_vendas_meses["marco"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
+                            dataset_vendas_meses["marco"][contador].produto.nome = item.nome
+                            break
+
+                if(dataset_vendas_meses["marco"][contador].produto.categoria == "" or dataset_vendas_meses["marco"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
+                            dataset_vendas_meses["marco"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["marco"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["marco"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["marco"][contador].produto.preco)
+                dataset_vendas_meses["marco"][contador].produto.preco = precoDefinitivo
+                dados_marco_tratados.append(dataset_vendas_meses["marco"][contador])
+
+            if contador >= 180 and contador <= 239:
+                if(dataset_vendas_meses["abril"][contador].produto.nome == "" or dataset_vendas_meses["abril"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
+                            dataset_vendas_meses["abril"][contador].produto.nome = item.nome
+                            break
+
+                if(dataset_vendas_meses["abril"][contador].produto.categoria == "" or dataset_vendas_meses["abril"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
+                            dataset_vendas_meses["abril"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["abril"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["abril"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["abril"][contador].produto.preco)
+                dataset_vendas_meses["abril"][contador].produto.preco = precoDefinitivo
+                dados_abril_tratados.append(dataset_vendas_meses["abril"][contador])
+
+            if contador >= 240 and contador <= 299:
+                if(dataset_vendas_meses["maio"][contador].produto.nome == "" or dataset_vendas_meses["maio"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
+                            dataset_vendas_meses["maio"][contador].produto.nome = item.nome
+                            break
+
+                if(dataset_vendas_meses["maio"][contador].produto.categoria == "" or dataset_vendas_meses["maio"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
+                            dataset_vendas_meses["maio"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["maio"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["maio"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["maio"][contador].produto.preco)
+                dataset_vendas_meses["maio"][contador].produto.preco = precoDefinitivo
+                dados_maio_tratados.append(dataset_vendas_meses["maio"][contador])
+
+            if contador >= 300 and contador <= 359:
+                if(dataset_vendas_meses["junho"][contador].produto.nome == "" or dataset_vendas_meses["junho"][contador].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
+                            dataset_vendas_meses["junho"][contador].produto.nome = item.nome
+                            break
+
+                if(dataset_vendas_meses["junho"][contador].produto.categoria == "" or dataset_vendas_meses["junho"][contador].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
+                            dataset_vendas_meses["junho"][contador].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["junho"][contador].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["junho"][contador].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["junho"][contador].produto.preco)
+                dataset_vendas_meses["junho"][contador].produto.preco = precoDefinitivo
+                dados_junho_tratados.append(dataset_vendas_meses["junho"][contador])
+
+                if contador >= 360 and contador <= 419:
+                    if (dataset_vendas_meses["julho"][contador].produto.nome == "" or dataset_vendas_meses["julho"][contador].produto.nome == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
+                                dataset_vendas_meses["julho"][contador].produto.nome = item.nome
+                                break
+
+                    if (dataset_vendas_meses["julho"][contador].produto.categoria == "" or
+                            dataset_vendas_meses["julho"][contador].produto.categoria == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
+                                dataset_vendas_meses["julho"][contador].produto.categoria = item.categoria
+                                break
+
+                    if (dataset_vendas_meses["julho"][contador].produto.preco == 0):
+
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
+                                self.formatar_numero(item.preco)
+                                dataset_vendas_meses["julho"][contador].produto.preco = item.preco
+
+                                break
+
+                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["julho"][contador].produto.preco)
+                    dataset_vendas_meses["julho"][contador].produto.preco = precoDefinitivo
+                    dados_julho_tratados.append(dataset_vendas_meses["julho"][contador])
+
+
+                if contador >= 420 and contador <= 479:
+                    if (dataset_vendas_meses["agosto"][contador].produto.nome == "" or dataset_vendas_meses["agosto"][contador].produto.nome == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
+                                dataset_vendas_meses["agosto"][contador].produto.nome = item.nome
+                                break
+
+                    if (dataset_vendas_meses["agosto"][contador].produto.categoria == "" or
+                            dataset_vendas_meses["agosto"][contador].produto.categoria == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
+                                dataset_vendas_meses["agosto"][contador].produto.categoria = item.categoria
+                                break
+
+                    if (dataset_vendas_meses["agosto"][contador].produto.preco == 0):
+
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
+                                self.formatar_numero(item.preco)
+                                dataset_vendas_meses["agosto"][contador].produto.preco = item.preco
+
+                                break
+
+                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["agosto"][contador].produto.preco)
+                    dataset_vendas_meses["agosto"][contador].produto.preco = precoDefinitivo
+                    dados_agosto_tratados.append(dataset_vendas_meses["agosto"][contador])
+
+                if contador >= 480 and contador <= 539:
+                    if (dataset_vendas_meses["setembro"][contador].produto.nome == "" or dataset_vendas_meses["setembro"][contador].produto.nome == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                dataset_vendas_meses["setembro"][contador].produto.nome = item.nome
+                                break
+
+                    if (dataset_vendas_meses["setembro"][contador].produto.categoria == "" or
+                            dataset_vendas_meses["setembro"][contador].produto.categoria == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                dataset_vendas_meses["setembro"][contador].produto.categoria = item.categoria
+                                break
+
+                    if (dataset_vendas_meses["setembro"][contador].produto.preco == 0):
+
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                self.formatar_numero(item.preco)
+                                dataset_vendas_meses["setembro"][contador].produto.preco = item.preco
+
+                                break
+
+                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["setembro"][contador].produto.preco)
+                    dataset_vendas_meses["setembro"][contador].produto.preco = precoDefinitivo
+                    dados_setembro_tratados.append(dataset_vendas_meses["setembro"][contador])
+
+                if contador >= 540 and contador <= 599:
+                    if (dataset_vendas_meses["outubro"][contador].produto.nome == "" or dataset_vendas_meses["outubro"][contador].produto.nome == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                dataset_vendas_meses["setembro"][contador].produto.nome = item.nome
+                                break
+
+                    if (dataset_vendas_meses["setembro"][contador].produto.categoria == "" or
+                            dataset_vendas_meses["setembro"][contador].produto.categoria == " "):
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                dataset_vendas_meses["setembro"][contador].produto.categoria = item.categoria
+                                break
+
+                    if (dataset_vendas_meses["setembro"][contador].produto.preco == 0):
+
+                        for item in lista_de_emergencia_produtos:
+                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
+                                self.formatar_numero(item.preco)
+                                dataset_vendas_meses["setembro"][contador].produto.preco = item.preco
+
+                                break
+
+                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["setembro"][contador].produto.preco)
+                    dataset_vendas_meses["setembro"][contador].produto.preco = precoDefinitivo
+                    dados_setembro_tratados.append(dataset_vendas_meses["setembro"][contador])
             contador +=1    
     
         
