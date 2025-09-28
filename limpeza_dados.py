@@ -613,196 +613,194 @@ class Dados:
         dados_quinhentos_e_trinta_e_nove = Dados(539, date(2023, 9, 30), produto19, 11)
         dados_quinhentos_e_quarenta = Dados(540, date(2023, 9, 30), produto2, 24)
 
-        dados_quinhentos_e_quarenta_e_um = Dados(541, date(2023, 10, 1), produto4, 17),
-        dados_quinhentos_e_quarenta_e_dois = Dados(542, date(2023, 10, 1), produto6, 25),
-        dados_quinhentos_e_quarenta_e_tres = Dados(543, date(2023, 10, 2), produto8, 12),
-        dados_quinhentos_e_quarenta_e_quatro = Dados(544, date(2023, 10, 2), produto10, 28),
-        dados_quinhentos_e_quarenta_e_cinco = Dados(545, date(2023, 10, 3), produto12, 14),
-        dados_quinhentos_e_quarenta_e_seis = Dados(546, date(2023, 10, 3), produto14, 30),
-        dados_quinhentos_e_quarenta_e_sete = Dados(547, date(2023, 10, 4), produto16, 9),
-        dados_quinhentos_e_quarenta_e_oito = Dados(548, date(2023, 10, 4), produto18, 21),
-        dados_quinhentos_e_quarenta_e_nove = Dados(549, date(2023, 10, 5), produto20, 16),
-        dados_quinhentos_e_cinquenta = Dados(550, date(2023, 10, 5), produto1, 27),
-        dados_quinhentos_e_cinquenta_e_um = Dados(551, date(2023, 10, 6), produto3, 18),
-        dados_quinhentos_e_cinquenta_e_dois = Dados(552, date(2023, 10, 6), produto5, 11),
-        dados_quinhentos_e_cinquenta_e_tres = Dados(553, date(2023, 10, 7), produto7, 29),
-        dados_quinhentos_e_cinquenta_e_quatro = Dados(554, date(2023, 10, 7), produto9, 13),
-        dados_quinhentos_e_cinquenta_e_cinco = Dados(555, date(2023, 10, 8), produto11, 22),
-        dados_quinhentos_e_cinquenta_e_seis = Dados(556, date(2023, 10, 8), produto13, 7),
-        dados_quinhentos_e_cinquenta_e_sete = Dados(557, date(2023, 10, 9), produto15, 26),
-        dados_quinhentos_e_cinquenta_e_oito = Dados(558, date(2023, 10, 9), produto17, 15),
-        dados_quinhentos_e_cinquenta_e_nove = Dados(559, date(2023, 10, 10), produto19, 20),
+        dados_quinhentos_e_quarenta_e_um = Dados(541, date(2023, 10, 1), produto4, 17)
+        dados_quinhentos_e_quarenta_e_dois = Dados(542, date(2023, 10, 1), produto6, 25)
+        dados_quinhentos_e_quarenta_e_tres = Dados(543, date(2023, 10, 2), produto8, 12)
+        dados_quinhentos_e_quarenta_e_quatro = Dados(544, date(2023, 10, 2), produto10, 28)
+        dados_quinhentos_e_quarenta_e_cinco = Dados(545, date(2023, 10, 3), produto12, 14)
+        dados_quinhentos_e_quarenta_e_seis = Dados(546, date(2023, 10, 3), produto14, 30)
+        dados_quinhentos_e_quarenta_e_sete = Dados(547, date(2023, 10, 4), produto16, 9)
+        dados_quinhentos_e_quarenta_e_oito = Dados(548, date(2023, 10, 4), produto18, 21)
+        dados_quinhentos_e_quarenta_e_nove = Dados(549, date(2023, 10, 5), produto20, 16)
+        dados_quinhentos_e_cinquenta = Dados(550, date(2023, 10, 5), produto1, 27)
+        dados_quinhentos_e_cinquenta_e_um = Dados(551, date(2023, 10, 6), produto3, 18)
+        dados_quinhentos_e_cinquenta_e_dois = Dados(552, date(2023, 10, 6), produto5, 11)
+        dados_quinhentos_e_cinquenta_e_tres = Dados(553, date(2023, 10, 7), produto7, 29)
+        dados_quinhentos_e_cinquenta_e_quatro = Dados(554, date(2023, 10, 7), produto9, 13)
+        dados_quinhentos_e_cinquenta_e_cinco = Dados(555, date(2023, 10, 8), produto11, 22)
+        dados_quinhentos_e_cinquenta_e_seis = Dados(556, date(2023, 10, 8), produto13, 7)
+        dados_quinhentos_e_cinquenta_e_sete = Dados(557, date(2023, 10, 9), produto15, 26)
+        dados_quinhentos_e_cinquenta_e_oito = Dados(558, date(2023, 10, 9), produto17, 15)
+        dados_quinhentos_e_cinquenta_e_nove = Dados(559, date(2023, 10, 10), produto19, 20)
       
-        dados_quinhentos_e_sessenta = Dados(560, date(2023, 10, 10), produto2, 10),
-        dados_quinhentos_e_sessenta_e_um = Dados(561, date(2023, 10, 11), produto4, 23),
-        dados_quinhentos_e_sessenta_e_dois = Dados(562, date(2023, 10, 11), produto6, 9),
-        dados_quinhentos_e_sessenta_e_tres = Dados(563, date(2023, 10, 12), produto8, 27),
-        dados_quinhentos_e_sessenta_e_quatro = Dados(564, date(2023, 10, 12), produto10, 12),
-        dados_quinhentos_e_sessenta_e_cinco = Dados(565, date(2023, 10, 13), produto12, 19),
-        dados_quinhentos_e_sessenta_e_seis = Dados(566, date(2023, 10, 13), produto14, 16),
-        dados_quinhentos_e_sessenta_e_sete = Dados(567, date(2023, 10, 14), produto16, 30),
-        dados_quinhentos_e_sessenta_e_oito = Dados(568, date(2023, 10, 14), produto18, 8),
-        dados_quinhentos_e_sessenta_e_nove = Dados(569, date(2023, 10, 15), produto20, 25),
-        dados_quinhentos_e_setenta = Dados(570, date(2023, 10, 15), produto1, 13),
-        dados_quinhentos_e_setenta_e_um = Dados(571, date(2023, 10, 16), produto3, 21),
-        dados_quinhentos_e_setenta_e_dois = Dados(572, date(2023, 10, 16), produto5, 17),
-        dados_quinhentos_e_setenta_e_tres = Dados(573, date(2023, 10, 17), produto7, 28),
-        dados_quinhentos_e_setenta_e_quatro = Dados(574, date(2023, 10, 17), produto9, 15),
-        dados_quinhentos_e_setenta_e_cinco = Dados(575, date(2023, 10, 18), produto11, 20),
-        dados_quinhentos_e_setenta_e_seis = Dados(576, date(2023, 10, 18), produto13, 10),
-        dados_quinhentos_e_setenta_e_sete = Dados(577, date(2023, 10, 19), produto15, 26),
-        dados_quinhentos_e_setenta_e_oito = Dados(578, date(2023, 10, 19), produto17, 14),
-        dados_quinhentos_e_setenta_e_nove = Dados(579, date(2023, 10, 20), produto19, 12),
+        dados_quinhentos_e_sessenta = Dados(560, date(2023, 10, 10), produto2, 10)
+        dados_quinhentos_e_sessenta_e_um = Dados(561, date(2023, 10, 11), produto4, 23)
+        dados_quinhentos_e_sessenta_e_dois = Dados(562, date(2023, 10, 11), produto6, 9)
+        dados_quinhentos_e_sessenta_e_tres = Dados(563, date(2023, 10, 12), produto8, 27)
+        dados_quinhentos_e_sessenta_e_quatro = Dados(564, date(2023, 10, 12), produto10, 12)
+        dados_quinhentos_e_sessenta_e_cinco = Dados(565, date(2023, 10, 13), produto12, 19)
+        dados_quinhentos_e_sessenta_e_seis = Dados(566, date(2023, 10, 13), produto14, 16)
+        dados_quinhentos_e_sessenta_e_sete = Dados(567, date(2023, 10, 14), produto16, 30)
+        dados_quinhentos_e_sessenta_e_oito = Dados(568, date(2023, 10, 14), produto18, 8)
+        dados_quinhentos_e_sessenta_e_nove = Dados(569, date(2023, 10, 15), produto20, 25)
+        dados_quinhentos_e_setenta = Dados(570, date(2023, 10, 15), produto1, 13)
+        dados_quinhentos_e_setenta_e_um = Dados(571, date(2023, 10, 16), produto3, 21)
+        dados_quinhentos_e_setenta_e_dois = Dados(572, date(2023, 10, 16), produto5, 17)
+        dados_quinhentos_e_setenta_e_tres = Dados(573, date(2023, 10, 17), produto7, 28)
+        dados_quinhentos_e_setenta_e_quatro = Dados(574, date(2023, 10, 17), produto9, 15)
+        dados_quinhentos_e_setenta_e_cinco = Dados(575, date(2023, 10, 18), produto11, 20)
+        dados_quinhentos_e_setenta_e_seis = Dados(576, date(2023, 10, 18), produto13, 10)
+        dados_quinhentos_e_setenta_e_sete = Dados(577, date(2023, 10, 19), produto15, 26)
+        dados_quinhentos_e_setenta_e_oito = Dados(578, date(2023, 10, 19), produto17, 14)
+        dados_quinhentos_e_setenta_e_nove = Dados(579, date(2023, 10, 20), produto19, 12)
       
-        dados_quinhentos_e_oitenta = Dados(580, date(2023, 10, 20), produto2, 29),
-        dados_quinhentos_e_oitenta_e_um = Dados(581, date(2023, 10, 21), produto4, 18),
-        dados_quinhentos_e_oitenta_e_dois = Dados(582, date(2023, 10, 21), produto6, 24),
-        dados_quinhentos_e_oitenta_e_tres = Dados(583, date(2023, 10, 22), produto8, 11),
-        dados_quinhentos_e_oitenta_e_quatro = Dados(584, date(2023, 10, 22), produto10, 12),
-        dados_quinhentos_e_oitenta_e_cinco = Dados(585, date(2023, 10, 23), produto12, 16),
-        dados_quinhentos_e_oitenta_e_seis = Dados(586, date(2023, 10, 23), produto14, 30),
-        dados_quinhentos_e_oitenta_e_sete = Dados(587, date(2023, 10, 24), produto16, 9),
-        dados_quinhentos_e_oitenta_e_oito = Dados(588, date(2023, 10, 24), produto18, 21),
-        dados_quinhentos_e_oitenta_e_nove = Dados(589, date(2023, 10, 25), produto20, 19),
-        dados_quinhentos_e_noventa = Dados(590, date(2023, 10, 25), produto1, 13),
-        dados_quinhentos_e_noventa_e_um = Dados(591, date(2023, 10, 26), produto3, 24),
-        dados_quinhentos_e_noventa_e_dois = Dados(592, date(2023, 10, 26), produto5, 15),
-        dados_quinhentos_e_noventa_e_tres = Dados(593, date(2023, 10, 27), produto7, 29),
-        dados_quinhentos_e_noventa_e_quatro = Dados(594, date(2023, 10, 27), produto9, 12),
-        dados_quinhentos_e_noventa_e_cinco = Dados(595, date(2023, 10, 28), produto11, 22),
-        dados_quinhentos_e_noventa_e_seis = Dados(596, date(2023, 10, 28), produto13, 10),
-        dados_quinhentos_e_noventa_e_sete = Dados(597, date(2023, 10, 29), produto15, 26),
-        dados_quinhentos_e_noventa_e_oito = Dados(598, date(2023, 10, 29), produto17, 17),
-        dados_quinhentos_e_noventa_e_nove = Dados(599, date(2023, 10, 30), produto14, 14),
+        dados_quinhentos_e_oitenta = Dados(580, date(2023, 10, 20), produto2, 29)
+        dados_quinhentos_e_oitenta_e_um = Dados(581, date(2023, 10, 21), produto4, 18)
+        dados_quinhentos_e_oitenta_e_dois = Dados(582, date(2023, 10, 21), produto6, 24)
+        dados_quinhentos_e_oitenta_e_tres = Dados(583, date(2023, 10, 22), produto8, 11)
+        dados_quinhentos_e_oitenta_e_quatro = Dados(584, date(2023, 10, 22), produto10, 12)
+        dados_quinhentos_e_oitenta_e_cinco = Dados(585, date(2023, 10, 23), produto12, 16)
+        dados_quinhentos_e_oitenta_e_seis = Dados(586, date(2023, 10, 23), produto14, 30)
+        dados_quinhentos_e_oitenta_e_sete = Dados(587, date(2023, 10, 24), produto16, 9)
+        dados_quinhentos_e_oitenta_e_oito = Dados(588, date(2023, 10, 24), produto18, 21)
+        dados_quinhentos_e_oitenta_e_nove = Dados(589, date(2023, 10, 25), produto20, 19)
+        dados_quinhentos_e_noventa = Dados(590, date(2023, 10, 25), produto1, 13)
+        dados_quinhentos_e_noventa_e_um = Dados(591, date(2023, 10, 26), produto3, 24)
+        dados_quinhentos_e_noventa_e_dois = Dados(592, date(2023, 10, 26), produto5, 15)
+        dados_quinhentos_e_noventa_e_tres = Dados(593, date(2023, 10, 27), produto7, 29)
+        dados_quinhentos_e_noventa_e_quatro = Dados(594, date(2023, 10, 27), produto9, 12)
+        dados_quinhentos_e_noventa_e_cinco = Dados(595, date(2023, 10, 28), produto11, 22)
+        dados_quinhentos_e_noventa_e_seis = Dados(596, date(2023, 10, 28), produto13, 10)
+        dados_quinhentos_e_noventa_e_sete = Dados(597, date(2023, 10, 29), produto15, 26)
+        dados_quinhentos_e_noventa_e_oito = Dados(598, date(2023, 10, 29), produto17, 17)
+        dados_quinhentos_e_noventa_e_nove = Dados(599, date(2023, 10, 30), produto14, 14)
         dados_seiscentos = Dados(600, date(2023, 10, 31), produto2, 20)
 
-        dados_seiscentos_e_um = Dados(601, date(2023, 11, 1), produto3, 18),
-        dados_seiscentos_e_dois = Dados(602, date(2023, 11, 1), produto5, 27),
-        dados_seiscentos_e_tres = Dados(603, date(2023, 11, 2), produto7, 13),
-        dados_seiscentos_e_quatro = Dados(604, date(2023, 11, 2), produto9, 22),
-        dados_seiscentos_e_cinco = Dados(605, date(2023, 11, 3), produto11, 9),
-        dados_seiscentos_e_seis = Dados(606, date(2023, 11, 3), produto13, 25),
-        dados_seiscentos_e_sete = Dados(607, date(2023, 11, 4), produto15, 16),
-        dados_seiscentos_e_oito = Dados(608, date(2023, 11, 4), produto17, 21),
-        dados_seiscentos_e_nove = Dados(609, date(2023, 11, 5), produto19, 10),
-        dados_seiscentos_e_dez = Dados(610, date(2023, 11, 5), produto1, 28),
-        dados_seiscentos_e_onze = Dados(611, date(2023, 11, 6), produto3, 12),
-        dados_seiscentos_e_doze = Dados(612, date(2023, 11, 6), produto5, 20),
-        dados_seiscentos_e_treze = Dados(613, date(2023, 11, 7), produto7, 29),
-        dados_seiscentos_e_quatorze = Dados(614, date(2023, 11, 7), produto9, 14),
-        dados_seiscentos_e_quinze = Dados(615, date(2023, 11, 8), produto11, 17),
-        dados_seiscentos_e_dezesseis = Dados(616, date(2023, 11, 8), produto13, 30),
-        dados_seiscentos_e_dezessete = Dados(617, date(2023, 11, 9), produto15, 11),
-        dados_seiscentos_e_dezoito = Dados(618, date(2023, 11, 9), produto17, 26),
-        dados_seiscentos_e_dezenove = Dados(619, date(2023, 11, 10), produto19, 19),
+        dados_seiscentos_e_um = Dados(601, date(2023, 11, 1), produto3, 18)
+        dados_seiscentos_e_dois = Dados(602, date(2023, 11, 1), produto5, 27)
+        dados_seiscentos_e_tres = Dados(603, date(2023, 11, 2), produto7, 13)
+        dados_seiscentos_e_quatro = Dados(604, date(2023, 11, 2), produto9, 22)
+        dados_seiscentos_e_cinco = Dados(605, date(2023, 11, 3), produto11, 9)
+        dados_seiscentos_e_seis = Dados(606, date(2023, 11, 3), produto13, 25)
+        dados_seiscentos_e_sete = Dados(607, date(2023, 11, 4), produto15, 16)
+        dados_seiscentos_e_oito = Dados(608, date(2023, 11, 4), produto17, 21)
+        dados_seiscentos_e_nove = Dados(609, date(2023, 11, 5), produto19, 10)
+        dados_seiscentos_e_dez = Dados(610, date(2023, 11, 5), produto1, 28)
+        dados_seiscentos_e_onze = Dados(611, date(2023, 11, 6), produto3, 12)
+        dados_seiscentos_e_doze = Dados(612, date(2023, 11, 6), produto5, 20)
+        dados_seiscentos_e_treze = Dados(613, date(2023, 11, 7), produto7, 29)
+        dados_seiscentos_e_quatorze = Dados(614, date(2023, 11, 7), produto9, 14)
+        dados_seiscentos_e_quinze = Dados(615, date(2023, 11, 8), produto11, 17)
+        dados_seiscentos_e_dezesseis = Dados(616, date(2023, 11, 8), produto13, 30)
+        dados_seiscentos_e_dezessete = Dados(617, date(2023, 11, 9), produto15, 11)
+        dados_seiscentos_e_dezoito = Dados(618, date(2023, 11, 9), produto17, 26)
+        dados_seiscentos_e_dezenove = Dados(619, date(2023, 11, 10), produto19, 19)
        
-        dados_seiscentos_e_vinte = Dados(620, date(2023, 11, 10), produto2, 15),
-        dados_seiscentos_e_vinte_e_um = Dados(621, date(2023, 11, 11), produto4, 23),
-        dados_seiscentos_e_vinte_e_dois = Dados(622, date(2023, 11, 11), produto6, 12),
-        dados_seiscentos_e_vinte_e_tres = Dados(623, date(2023, 11, 12), produto8, 28),
-        dados_seiscentos_e_vinte_e_quatro = Dados(624, date(2023, 11, 12), produto10, 9),
-        dados_seiscentos_e_vinte_e_cinco = Dados(625, date(2023, 11, 13), produto12, 21),
-        dados_seiscentos_e_vinte_e_seis = Dados(626, date(2023, 11, 13), produto8, 16),
-        dados_seiscentos_e_vinte_e_sete = Dados(627, date(2023, 11, 14), produto16, 24),
-        dados_seiscentos_e_vinte_e_oito = Dados(628, date(2023, 11, 14), produto18, 10),
-        dados_seiscentos_e_vinte_e_nove = Dados(629, date(2023, 11, 15), produto20, 27),
-        dados_seiscentos_e_trinta = Dados(630, date(2023, 11, 15), produto1, 13),
-        dados_seiscentos_e_trinta_e_um = Dados(631, date(2023, 11, 16), produto3, 22),
-        dados_seiscentos_e_trinta_e_dois = Dados(632, date(2023, 11, 16), produto5, 15),
-        dados_seiscentos_e_trinta_e_tres = Dados(633, date(2023, 11, 17), produto7, 26),
-        dados_seiscentos_e_trinta_e_quatro = Dados(634, date(2023, 11, 17), produto9, 18),
-        dados_seiscentos_e_trinta_e_cinco = Dados(635, date(2023, 11, 18), produto11, 11),
-        dados_seiscentos_e_trinta_e_seis = Dados(636, date(2023, 11, 18), produto13, 29),
-        dados_seiscentos_e_trinta_e_sete = Dados(637, date(2023, 11, 19), produto15, 20),
-        dados_seiscentos_e_trinta_e_oito = Dados(638, date(2023, 11, 19), produto17, 16),
-        dados_seiscentos_e_trinta_e_nove = Dados(639, date(2023, 11, 20), produto19, 12),
+        dados_seiscentos_e_vinte = Dados(620, date(2023, 11, 10), produto2, 15)
+        dados_seiscentos_e_vinte_e_um = Dados(621, date(2023, 11, 11), produto4, 23)
+        dados_seiscentos_e_vinte_e_dois = Dados(622, date(2023, 11, 11), produto6, 12)
+        dados_seiscentos_e_vinte_e_tres = Dados(623, date(2023, 11, 12), produto8, 28)
+        dados_seiscentos_e_vinte_e_quatro = Dados(624, date(2023, 11, 12), produto10, 9)
+        dados_seiscentos_e_vinte_e_cinco = Dados(625, date(2023, 11, 13), produto12, 21)
+        dados_seiscentos_e_vinte_e_seis = Dados(626, date(2023, 11, 13), produto8, 16)
+        dados_seiscentos_e_vinte_e_sete = Dados(627, date(2023, 11, 14), produto16, 24)
+        dados_seiscentos_e_vinte_e_oito = Dados(628, date(2023, 11, 14), produto18, 10)
+        dados_seiscentos_e_vinte_e_nove = Dados(629, date(2023, 11, 15), produto20, 27)
+        dados_seiscentos_e_trinta = Dados(630, date(2023, 11, 15), produto1, 13)
+        dados_seiscentos_e_trinta_e_um = Dados(631, date(2023, 11, 16), produto3, 22)
+        dados_seiscentos_e_trinta_e_dois = Dados(632, date(2023, 11, 16), produto5, 15)
+        dados_seiscentos_e_trinta_e_tres = Dados(633, date(2023, 11, 17), produto7, 26)
+        dados_seiscentos_e_trinta_e_quatro = Dados(634, date(2023, 11, 17), produto9, 18)
+        dados_seiscentos_e_trinta_e_cinco = Dados(635, date(2023, 11, 18), produto11, 11)
+        dados_seiscentos_e_trinta_e_seis = Dados(636, date(2023, 11, 18), produto13, 29)
+        dados_seiscentos_e_trinta_e_sete = Dados(637, date(2023, 11, 19), produto15, 20)
+        dados_seiscentos_e_trinta_e_oito = Dados(638, date(2023, 11, 19), produto17, 16)
+        dados_seiscentos_e_trinta_e_nove = Dados(639, date(2023, 11, 20), produto19, 12)
        
-        dados_seiscentos_e_quarenta = Dados(640, date(2023, 11, 20), produto2, 24),
-        dados_seiscentos_e_quarenta_e_um = Dados(641, date(2023, 11, 21), produto9, 17),
-        dados_seiscentos_e_quarenta_e_dois = Dados(642, date(2023, 11, 21), produto6, 30),
-        dados_seiscentos_e_quarenta_e_tres = Dados(643, date(2023, 11, 22), produto8, 15),
-        dados_seiscentos_e_quarenta_e_quatro = Dados(644, date(2023, 11, 22), produto1, 28),
-        dados_seiscentos_e_quarenta_e_cinco = Dados(645, date(2023, 11, 23), produto14, 19),
-        dados_seiscentos_e_quarenta_e_seis = Dados(646, date(2023, 11, 23), produto3, 10),
-        dados_seiscentos_e_quarenta_e_sete = Dados(647, date(2023, 11, 24), produto4, 27),
-        dados_seiscentos_e_quarenta_e_oito = Dados(648, date(2023, 11, 24), produto2, 14),
-        dados_seiscentos_e_quarenta_e_nove = Dados(649, date(2023, 11, 25), produto20, 11),
-        dados_seiscentos_e_cinquenta = Dados(650, date(2023, 11, 25), produto1, 23),
-        dados_seiscentos_e_cinquenta_e_um = Dados(651, date(2023, 11, 26), produto3, 16),
-        dados_seiscentos_e_cinquenta_e_dois = Dados(652, date(2023, 11, 26), produto5, 30),
-        dados_seiscentos_e_cinquenta_e_tres = Dados(653, date(2023, 11, 27), produto7, 13),
-        dados_seiscentos_e_cinquenta_e_quatro = Dados(654, date(2023, 11, 27), produto9, 21),
-        dados_seiscentos_e_cinquenta_e_cinco = Dados(655, date(2023, 11, 28), produto11, 12),
-        dados_seiscentos_e_cinquenta_e_seis = Dados(656, date(2023, 11, 28), produto13, 25),
-        dados_seiscentos_e_cinquenta_e_sete = Dados(657, date(2023, 11, 29), produto15, 18),
-        dados_seiscentos_e_cinquenta_e_oito = Dados(658, date(2023, 11, 29), produto17, 26),
-        dados_seiscentos_e_cinquenta_e_nove = Dados(659, date(2023, 11, 30), produto19, 14),
+        dados_seiscentos_e_quarenta = Dados(640, date(2023, 11, 20), produto2, 24)
+        dados_seiscentos_e_quarenta_e_um = Dados(641, date(2023, 11, 21), produto9, 17)
+        dados_seiscentos_e_quarenta_e_dois = Dados(642, date(2023, 11, 21), produto6, 30)
+        dados_seiscentos_e_quarenta_e_tres = Dados(643, date(2023, 11, 22), produto8, 15)
+        dados_seiscentos_e_quarenta_e_quatro = Dados(644, date(2023, 11, 22), produto1, 28)
+        dados_seiscentos_e_quarenta_e_cinco = Dados(645, date(2023, 11, 23), produto14, 19)
+        dados_seiscentos_e_quarenta_e_seis = Dados(646, date(2023, 11, 23), produto3, 10)
+        dados_seiscentos_e_quarenta_e_sete = Dados(647, date(2023, 11, 24), produto4, 27)
+        dados_seiscentos_e_quarenta_e_oito = Dados(648, date(2023, 11, 24), produto2, 14)
+        dados_seiscentos_e_quarenta_e_nove = Dados(649, date(2023, 11, 25), produto20, 11)
+        dados_seiscentos_e_cinquenta = Dados(650, date(2023, 11, 25), produto1, 23)
+        dados_seiscentos_e_cinquenta_e_um = Dados(651, date(2023, 11, 26), produto3, 16)
+        dados_seiscentos_e_cinquenta_e_dois = Dados(652, date(2023, 11, 26), produto5, 30)
+        dados_seiscentos_e_cinquenta_e_tres = Dados(653, date(2023, 11, 27), produto7, 13)
+        dados_seiscentos_e_cinquenta_e_quatro = Dados(654, date(2023, 11, 27), produto9, 21)
+        dados_seiscentos_e_cinquenta_e_cinco = Dados(655, date(2023, 11, 28), produto11, 12)
+        dados_seiscentos_e_cinquenta_e_seis = Dados(656, date(2023, 11, 28), produto13, 25)
+        dados_seiscentos_e_cinquenta_e_sete = Dados(657, date(2023, 11, 29), produto15, 18)
+        dados_seiscentos_e_cinquenta_e_oito = Dados(658, date(2023, 11, 29), produto17, 26)
+        dados_seiscentos_e_cinquenta_e_nove = Dados(659, date(2023, 11, 30), produto19, 14)
         dados_seiscentos_e_sessenta = Dados(660, date(2023, 11, 30), produto2, 20)
 
-        dados_seiscentos_e_sessenta_e_um = Dados(661, date(2023, 12, 1), produto3, 19),
-        dados_seiscentos_e_sessenta_e_dois = Dados(662, date(2023, 12, 1), produto5, 27),
-        dados_seiscentos_e_sessenta_e_tres = Dados(663, date(2023, 12, 2), produto7, 12),
-        dados_seiscentos_e_sessenta_e_quatro = Dados(664, date(2023, 12, 2), produto9, 25),
-        dados_seiscentos_e_sessenta_e_cinco = Dados(665, date(2023, 12, 3), produto11, 14),
-        dados_seiscentos_e_sessenta_e_seis = Dados(666, date(2023, 12, 3), produto13, 30),
-        dados_seiscentos_e_sessenta_e_sete = Dados(667, date(2023, 12, 4), produto15, 10),
-        dados_seiscentos_e_sessenta_e_oito = Dados(668, date(2023, 12, 4), produto17, 23),
-        dados_seiscentos_e_sessenta_e_nove = Dados(669, date(2023, 12, 5), produto19, 16),
-        dados_seiscentos_e_setenta = Dados(670, date(2023, 12, 5), produto1, 28),
-        dados_seiscentos_e_setenta_e_um = Dados(671, date(2023, 12, 6), produto3, 21),
-        dados_seiscentos_e_setenta_e_dois = Dados(672, date(2023, 12, 6), produto5, 13),
-        dados_seiscentos_e_setenta_e_tres = Dados(673, date(2023, 12, 7), produto7, 29),
-        dados_seiscentos_e_setenta_e_quatro = Dados(674, date(2023, 12, 7), produto9, 15),
-        dados_seiscentos_e_setenta_e_cinco = Dados(675, date(2023, 12, 8), produto11, 22),
-        dados_seiscentos_e_setenta_e_seis = Dados(676, date(2023, 12, 8), produto13, 11),
-        dados_seiscentos_e_setenta_e_sete = Dados(677, date(2023, 12, 9), produto15, 26),
-        dados_seiscentos_e_setenta_e_oito = Dados(678, date(2023, 12, 9), produto17, 18),
-        dados_seiscentos_e_setenta_e_nove = Dados(679, date(2023, 12, 10), produto19, 20),
+        dados_seiscentos_e_sessenta_e_um = Dados(661, date(2023, 12, 1), produto3, 19)
+        dados_seiscentos_e_sessenta_e_dois = Dados(662, date(2023, 12, 1), produto5, 27)
+        dados_seiscentos_e_sessenta_e_tres = Dados(663, date(2023, 12, 2), produto7, 12)
+        dados_seiscentos_e_sessenta_e_quatro = Dados(664, date(2023, 12, 2), produto9, 25)
+        dados_seiscentos_e_sessenta_e_cinco = Dados(665, date(2023, 12, 3), produto11, 14)
+        dados_seiscentos_e_sessenta_e_seis = Dados(666, date(2023, 12, 3), produto13, 30)
+        dados_seiscentos_e_sessenta_e_sete = Dados(667, date(2023, 12, 4), produto15, 10)
+        dados_seiscentos_e_sessenta_e_oito = Dados(668, date(2023, 12, 4), produto17, 23)
+        dados_seiscentos_e_sessenta_e_nove = Dados(669, date(2023, 12, 5), produto19, 16)
+        dados_seiscentos_e_setenta = Dados(670, date(2023, 12, 5), produto1, 28)
+        dados_seiscentos_e_setenta_e_um = Dados(671, date(2023, 12, 6), produto3, 21)
+        dados_seiscentos_e_setenta_e_dois = Dados(672, date(2023, 12, 6), produto5, 13)
+        dados_seiscentos_e_setenta_e_tres = Dados(673, date(2023, 12, 7), produto7, 29)
+        dados_seiscentos_e_setenta_e_quatro = Dados(674, date(2023, 12, 7), produto9, 15)
+        dados_seiscentos_e_setenta_e_cinco = Dados(675, date(2023, 12, 8), produto11, 22)
+        dados_seiscentos_e_setenta_e_seis = Dados(676, date(2023, 12, 8), produto13, 11)
+        dados_seiscentos_e_setenta_e_sete = Dados(677, date(2023, 12, 9), produto15, 26)
+        dados_seiscentos_e_setenta_e_oito = Dados(678, date(2023, 12, 9), produto17, 18)
+        dados_seiscentos_e_setenta_e_nove = Dados(679, date(2023, 12, 10), produto19, 20)
         
-        dados_seiscentos_e_oitenta = Dados(680, date(2023, 12, 10), produto2, 12),
-        dados_seiscentos_e_oitenta_e_um = Dados(681, date(2023, 12, 11), produto4, 24),
-        dados_seiscentos_e_oitenta_e_dois = Dados(682, date(2023, 12, 11), produto6, 17),
-        dados_seiscentos_e_oitenta_e_tres = Dados(683, date(2023, 12, 12), produto8, 28),
-        dados_seiscentos_e_oitenta_e_quatro = Dados(684, date(2023, 12, 12), produto10, 10),
-        dados_seiscentos_e_oitenta_e_cinco = Dados(685, date(2023, 12, 13), produto12, 19),
-        dados_seiscentos_e_oitenta_e_seis = Dados(686, date(2023, 12, 13), produto14, 15),
-        dados_seiscentos_e_oitenta_e_sete = Dados(687, date(2023, 12, 14), produto16, 30),
-        dados_seiscentos_e_oitenta_e_oito = Dados(688, date(2023, 12, 14), produto18, 9),
-        dados_seiscentos_e_oitenta_e_nove = Dados(689, date(2023, 12, 15), produto20, 26),
-        dados_seiscentos_e_noventa = Dados(690, date(2023, 12, 15), produto1, 13),
-        dados_seiscentos_e_noventa_e_um = Dados(691, date(2023, 12, 16), produto3, 20),
-        dados_seiscentos_e_noventa_e_dois = Dados(692, date(2023, 12, 16), produto5, 14),
-        dados_seiscentos_e_noventa_e_tres = Dados(693, date(2023, 12, 17), produto7, 27),
-        dados_seiscentos_e_noventa_e_quatro = Dados(694, date(2023, 12, 17), produto9, 11),
-        dados_seiscentos_e_noventa_e_cinco = Dados(695, date(2023, 12, 18), produto11, 23),
-        dados_seiscentos_e_noventa_e_seis = Dados(696, date(2023, 12, 18), produto13, 12),
-        dados_seiscentos_e_noventa_e_sete = Dados(697, date(2023, 12, 19), produto15, 18),
-        dados_seiscentos_e_noventa_e_oito = Dados(698, date(2023, 12, 19), produto17, 29),
-        dados_seiscentos_e_noventa_e_nove = Dados(699, date(2023, 12, 20), produto19, 15),
+        dados_seiscentos_e_oitenta = Dados(680, date(2023, 12, 10), produto2, 12)
+        dados_seiscentos_e_oitenta_e_um = Dados(681, date(2023, 12, 11), produto4, 24)
+        dados_seiscentos_e_oitenta_e_dois = Dados(682, date(2023, 12, 11), produto6, 17)
+        dados_seiscentos_e_oitenta_e_tres = Dados(683, date(2023, 12, 12), produto8, 28)
+        dados_seiscentos_e_oitenta_e_quatro = Dados(684, date(2023, 12, 12), produto10, 10)
+        dados_seiscentos_e_oitenta_e_cinco = Dados(685, date(2023, 12, 13), produto12, 19)
+        dados_seiscentos_e_oitenta_e_seis = Dados(686, date(2023, 12, 13), produto14, 15)
+        dados_seiscentos_e_oitenta_e_sete = Dados(687, date(2023, 12, 14), produto16, 30)
+        dados_seiscentos_e_oitenta_e_oito = Dados(688, date(2023, 12, 14), produto18, 9)
+        dados_seiscentos_e_oitenta_e_nove = Dados(689, date(2023, 12, 15), produto20, 26)
+        dados_seiscentos_e_noventa = Dados(690, date(2023, 12, 15), produto1, 13)
+        dados_seiscentos_e_noventa_e_um = Dados(691, date(2023, 12, 16), produto3, 20)
+        dados_seiscentos_e_noventa_e_dois = Dados(692, date(2023, 12, 16), produto5, 14)
+        dados_seiscentos_e_noventa_e_tres = Dados(693, date(2023, 12, 17), produto7, 27)
+        dados_seiscentos_e_noventa_e_quatro = Dados(694, date(2023, 12, 17), produto9, 11)
+        dados_seiscentos_e_noventa_e_cinco = Dados(695, date(2023, 12, 18), produto11, 23)
+        dados_seiscentos_e_noventa_e_seis = Dados(696, date(2023, 12, 18), produto13, 12)
+        dados_seiscentos_e_noventa_e_sete = Dados(697, date(2023, 12, 19), produto15, 18)
+        dados_seiscentos_e_noventa_e_oito = Dados(698, date(2023, 12, 19), produto17, 29)
+        dados_seiscentos_e_noventa_e_nove = Dados(699, date(2023, 12, 20), produto19, 15)
         
-        dados_setecentos = Dados(700, date(2023, 12, 20), produto2, 21),
-        dados_setecentos_e_um = Dados(701, date(2023, 12, 21), produto4, 16),
-        dados_setecentos_e_dois = Dados(702, date(2023, 12, 21), produto6, 30),
-        dados_setecentos_e_tres = Dados(703, date(2023, 12, 22), produto8, 13),
-        dados_setecentos_e_quatro = Dados(704, date(2023, 12, 22), produto10, 25),
-        dados_setecentos_e_cinco = Dados(705, date(2023, 12, 23), produto12, 11),
-        dados_setecentos_e_seis = Dados(706, date(2023, 12, 23), produto14, 28),
-        dados_setecentos_e_sete = Dados(707, date(2023, 12, 24), produto16, 17),
-        dados_setecentos_e_oito = Dados(708, date(2023, 12, 24), produto18, 20),
-        dados_setecentos_e_nove = Dados(709, date(2023, 12, 25), produto20, 14),
-        dados_setecentos_e_dez = Dados(710, date(2023, 12, 25), produto1, 27),
-        dados_setecentos_e_onze = Dados(711, date(2023, 12, 26), produto3, 12),
-        dados_setecentos_e_doze = Dados(712, date(2023, 12, 26), produto5, 19),
-        dados_setecentos_e_treze = Dados(713, date(2023, 12, 27), produto7, 22),
-        dados_setecentos_e_quatorze = Dados(714, date(2023, 12, 27), produto9, 15),
-        dados_setecentos_e_quinze = Dados(715, date(2023, 12, 28), produto11, 29),
-        dados_setecentos_e_dezesseis = Dados(716, date(2023, 12, 28), produto13, 16),
-        dados_setecentos_e_dezessete = Dados(717, date(2023, 12, 29), produto15, 18),
-        dados_setecentos_e_dezoito = Dados(718, date(2023, 12, 29), produto17, 26),
-        dados_setecentos_e_dezenove = Dados(719, date(2023, 12, 30), produto19, 10),
+        dados_setecentos = Dados(700, date(2023, 12, 20), produto2, 21)
+        dados_setecentos_e_um = Dados(701, date(2023, 12, 21), produto4, 16)
+        dados_setecentos_e_dois = Dados(702, date(2023, 12, 21), produto6, 30)
+        dados_setecentos_e_tres = Dados(703, date(2023, 12, 22), produto8, 13)
+        dados_setecentos_e_quatro = Dados(704, date(2023, 12, 22), produto10, 25)
+        dados_setecentos_e_cinco = Dados(705, date(2023, 12, 23), produto12, 11)
+        dados_setecentos_e_seis = Dados(706, date(2023, 12, 23), produto14, 28)
+        dados_setecentos_e_sete = Dados(707, date(2023, 12, 24), produto16, 17)
+        dados_setecentos_e_oito = Dados(708, date(2023, 12, 24), produto18, 20)
+        dados_setecentos_e_nove = Dados(709, date(2023, 12, 25), produto20, 14)
+        dados_setecentos_e_dez = Dados(710, date(2023, 12, 25), produto1, 27)
+        dados_setecentos_e_onze = Dados(711, date(2023, 12, 26), produto3, 12)
+        dados_setecentos_e_doze = Dados(712, date(2023, 12, 26), produto5, 19)
+        dados_setecentos_e_treze = Dados(713, date(2023, 12, 27), produto7, 22)
+        dados_setecentos_e_quatorze = Dados(714, date(2023, 12, 27), produto9, 15)
+        dados_setecentos_e_quinze = Dados(715, date(2023, 12, 28), produto11, 29)
+        dados_setecentos_e_dezesseis = Dados(716, date(2023, 12, 28), produto13, 16)
+        dados_setecentos_e_dezessete = Dados(717, date(2023, 12, 29), produto15, 18)
+        dados_setecentos_e_dezoito = Dados(718, date(2023, 12, 29), produto17, 26)
+        dados_setecentos_e_dezenove = Dados(719, date(2023, 12, 30), produto19, 10)
         dados_setecentos_e_vinte = Dados(720, date(2023, 12, 31), produto2, 24)
-
-
 
 
         dados_janeiro = [dados_um, dados_dois, dados_tres, dados_quatro, dados_cinco, dados_seis, dados_sete, dados_oito, dados_nove, dados_dez, dados_onze, dados_doze, dados_treze, dados_quatorze, dados_quinze, dados_dezesseis, dados_dezessete, dados_dezoito, dados_dezenove, dados_vinte, dados_vinte_um, dados_vinte_dois, dados_vinte_tres, dados_vinte_quatro, dados_vinte_cinco, dados_vinte_seis, dados_vinte_sete, dados_vinte_oito, dados_vinte_nove, dados_trinta, dados_trinta_um, dados_trinta_dois, dados_trinta_tres, dados_trinta_quatro, dados_trinta_cinco, dados_trinta_seis, dados_trinta_sete, dados_trinta_oito, dados_trinta_nove, dados_quarenta, dados_quarenta_um, dados_quarenta_dois, dados_quarenta_tres, dados_quarenta_quatro, dados_quarenta_cinco, dados_quarenta_seis, dados_quarenta_sete, dados_quarenta_oito, dados_quarenta_nove, dados_cinquenta, dados_cinquenta_um, dados_cinquenta_dois, dados_cinquenta_tres, dados_cinquenta_quatro, dados_cinquenta_cinco, dados_cinquenta_seis, dados_cinquenta_sete, dados_cinquenta_oito, dados_cinquenta_nove, dados_sessenta]
@@ -818,6 +816,7 @@ class Dados:
         dados_novembro = [dados_seiscentos_e_um, dados_seiscentos_e_dois, dados_seiscentos_e_tres, dados_seiscentos_e_quatro, dados_seiscentos_e_cinco, dados_seiscentos_e_seis, dados_seiscentos_e_sete, dados_seiscentos_e_oito, dados_seiscentos_e_nove, dados_seiscentos_e_dez, dados_seiscentos_e_onze, dados_seiscentos_e_doze, dados_seiscentos_e_treze, dados_seiscentos_e_quatorze, dados_seiscentos_e_quinze, dados_seiscentos_e_dezesseis, dados_seiscentos_e_dezessete, dados_seiscentos_e_dezoito, dados_seiscentos_e_dezenove, dados_seiscentos_e_vinte, dados_seiscentos_e_vinte_e_um, dados_seiscentos_e_vinte_e_dois, dados_seiscentos_e_vinte_e_tres, dados_seiscentos_e_vinte_e_quatro, dados_seiscentos_e_vinte_e_cinco, dados_seiscentos_e_vinte_e_seis, dados_seiscentos_e_vinte_e_sete, dados_seiscentos_e_vinte_e_oito, dados_seiscentos_e_vinte_e_nove, dados_seiscentos_e_trinta, dados_seiscentos_e_trinta_e_um, dados_seiscentos_e_trinta_e_dois, dados_seiscentos_e_trinta_e_tres, dados_seiscentos_e_trinta_e_quatro, dados_seiscentos_e_trinta_e_cinco, dados_seiscentos_e_trinta_e_seis, dados_seiscentos_e_trinta_e_sete, dados_seiscentos_e_trinta_e_oito, dados_seiscentos_e_trinta_e_nove, dados_seiscentos_e_quarenta, dados_seiscentos_e_quarenta_e_um, dados_seiscentos_e_quarenta_e_dois, dados_seiscentos_e_quarenta_e_tres, dados_seiscentos_e_quarenta_e_quatro, dados_seiscentos_e_quarenta_e_cinco, dados_seiscentos_e_quarenta_e_seis, dados_seiscentos_e_quarenta_e_sete, dados_seiscentos_e_quarenta_e_oito, dados_seiscentos_e_quarenta_e_nove, dados_seiscentos_e_cinquenta, dados_seiscentos_e_cinquenta_e_um, dados_seiscentos_e_cinquenta_e_dois, dados_seiscentos_e_cinquenta_e_tres, dados_seiscentos_e_cinquenta_e_quatro, dados_seiscentos_e_cinquenta_e_cinco, dados_seiscentos_e_cinquenta_e_seis, dados_seiscentos_e_cinquenta_e_sete, dados_seiscentos_e_cinquenta_e_oito, dados_seiscentos_e_cinquenta_e_nove, dados_seiscentos_e_sessenta]
         dados_dezembro = [dados_seiscentos_e_sessenta_e_um, dados_seiscentos_e_sessenta_e_dois, dados_seiscentos_e_sessenta_e_tres, dados_seiscentos_e_sessenta_e_quatro, dados_seiscentos_e_sessenta_e_cinco, dados_seiscentos_e_sessenta_e_seis, dados_seiscentos_e_sessenta_e_sete, dados_seiscentos_e_sessenta_e_oito, dados_seiscentos_e_sessenta_e_nove, dados_seiscentos_e_setenta, dados_seiscentos_e_setenta_e_um, dados_seiscentos_e_setenta_e_dois, dados_seiscentos_e_setenta_e_tres, dados_seiscentos_e_setenta_e_quatro, dados_seiscentos_e_setenta_e_cinco, dados_seiscentos_e_setenta_e_seis, dados_seiscentos_e_setenta_e_sete, dados_seiscentos_e_setenta_e_oito, dados_seiscentos_e_setenta_e_nove, dados_seiscentos_e_oitenta, dados_seiscentos_e_oitenta_e_um, dados_seiscentos_e_oitenta_e_dois, dados_seiscentos_e_oitenta_e_tres, dados_seiscentos_e_oitenta_e_quatro, dados_seiscentos_e_oitenta_e_cinco, dados_seiscentos_e_oitenta_e_seis, dados_seiscentos_e_oitenta_e_sete, dados_seiscentos_e_oitenta_e_oito, dados_seiscentos_e_oitenta_e_nove, dados_seiscentos_e_noventa, dados_seiscentos_e_noventa_e_um, dados_seiscentos_e_noventa_e_dois, dados_seiscentos_e_noventa_e_tres, dados_seiscentos_e_noventa_e_quatro, dados_seiscentos_e_noventa_e_cinco, dados_seiscentos_e_noventa_e_seis, dados_seiscentos_e_noventa_e_sete, dados_seiscentos_e_noventa_e_oito, dados_seiscentos_e_noventa_e_nove, dados_setecentos, dados_setecentos_e_um, dados_setecentos_e_dois, dados_setecentos_e_tres, dados_setecentos_e_quatro, dados_setecentos_e_cinco, dados_setecentos_e_seis, dados_setecentos_e_sete, dados_setecentos_e_oito, dados_setecentos_e_nove, dados_setecentos_e_dez, dados_setecentos_e_onze, dados_setecentos_e_doze, dados_setecentos_e_treze, dados_setecentos_e_quatorze, dados_setecentos_e_quinze, dados_setecentos_e_dezesseis, dados_setecentos_e_dezessete, dados_setecentos_e_dezoito, dados_setecentos_e_dezenove, dados_setecentos_e_vinte]
 
+
         return [dados_janeiro, dados_fevereiro, dados_marco, dados_abril, dados_maio, dados_junho, dados_julho, dados_agosto, dados_setembro,
                 dados_outubro, dados_novembro, dados_dezembro]
 
@@ -828,16 +827,25 @@ class Dados:
 
         num_cortado = num_em_str.split('.')
         numero_para_concatenar = num_cortado[0]
-        numero_decimal_para_formatar = num_cortado[1]
-        decimal = num_cortado[1]
+        numero_decimal_para_formatar = []
+
+        for dig in num_cortado[1]:
+            numero_decimal_para_formatar.append(dig)
 
         contador = 0
         lista_do_decimal = []
-        while (contador <= 1):
-            lista_do_decimal.append(decimal[contador])
-            contador += 1
 
-        num_final_str = numero_para_concatenar +'.'+lista_do_decimal[0] + lista_do_decimal[1]
+        if len(numero_decimal_para_formatar) > 1:
+            while (contador <= 1):
+                lista_do_decimal.append(numero_decimal_para_formatar[contador])
+                contador += 1
+        else:
+            lista_do_decimal.append(numero_decimal_para_formatar[0])
+            num_final_str = numero_para_concatenar+'.'+lista_do_decimal[0]
+            num_final = float(num_final_str)
+            return num_final
+
+        num_final_str = numero_para_concatenar + '.' + lista_do_decimal[0] + lista_do_decimal[1]
         num_final = float(num_final_str)
         return num_final
 
@@ -908,270 +916,384 @@ class Dados:
         dados_dezembro_tratados = []
 
         contador = 0
+        contador_interno = 0
         while(contador < 720):
             if contador >= 0 and contador <= 59:
-                if(dataset_vendas_meses["janeiro"][contador].produto.nome == "" or dataset_vendas_meses["janeiro"][contador].produto.nome == " "):
+
+                if(dataset_vendas_meses["janeiro"][contador_interno].produto.nome == "" or dataset_vendas_meses["janeiro"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
-                            dataset_vendas_meses["janeiro"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["janeiro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["janeiro"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["janeiro"][contador].produto.categoria == "" or dataset_vendas_meses["janeiro"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == "" or dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
-                            dataset_vendas_meses["janeiro"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["janeiro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["janeiro"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["janeiro"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["janeiro"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["janeiro"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["janeiro"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["janeiro"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["janeiro"][contador_interno].produto.preco = item.preco
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["janeiro"][contador].produto.preco)
-                dataset_vendas_meses["janeiro"][contador].produto.preco = precoDefinitivo
-                dados_janeiro_tratados.append(dataset_vendas_meses["janeiro"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["janeiro"][contador_interno].produto.preco)
+                dataset_vendas_meses["janeiro"][contador_interno].produto.preco = precoDefinitivo
+                dados_janeiro_tratados.append(dataset_vendas_meses["janeiro"][contador_interno])
+                contador_interno+=1
+
 
             if contador >= 60 and contador <= 119:
-                if(dataset_vendas_meses["fevereiro"][contador].produto.nome == "" or dataset_vendas_meses["fevereiro"][contador].produto.nome == " "):
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if(dataset_vendas_meses["fevereiro"][contador_interno].produto.nome == "" or dataset_vendas_meses["fevereiro"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
-                            dataset_vendas_meses["fevereiro"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["fevereiro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["fevereiro"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["fevereiro"][contador].produto.categoria == "" or dataset_vendas_meses["fevereiro"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["fevereiro"][contador_interno].produto.categoria == "" or dataset_vendas_meses["fevereiro"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
-                            dataset_vendas_meses["fevereiro"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["fevereiro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["fevereiro"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["fevereiro"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["fevereiro"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["fevereiro"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["fevereiro"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["fevereiro"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["fevereiro"][contador_interno].produto.preco = item.preco
 
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["fevereiro"][contador].produto.preco)
-                dataset_vendas_meses["fevereiro"][contador].produto.preco = precoDefinitivo
-                dados_fevereiro_tratados.append(dataset_vendas_meses["fevereiro"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["fevereiro"][contador_interno].produto.preco)
+                dataset_vendas_meses["fevereiro"][contador_interno].produto.preco = precoDefinitivo
+                dados_fevereiro_tratados.append(dataset_vendas_meses["fevereiro"][contador_interno])
+                contador_interno += 1
 
             if contador >= 120 and contador <= 179:
-                if(dataset_vendas_meses["marco"][contador].produto.nome == "" or dataset_vendas_meses["marco"][contador].produto.nome == " "):
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if(dataset_vendas_meses["marco"][contador_interno].produto.nome == "" or dataset_vendas_meses["marco"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
-                            dataset_vendas_meses["marco"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["marco"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["marco"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["marco"][contador].produto.categoria == "" or dataset_vendas_meses["marco"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["marco"][contador_interno].produto.categoria == "" or dataset_vendas_meses["marco"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
-                            dataset_vendas_meses["marco"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["marco"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["marco"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["marco"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["marco"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["marco"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["marco"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["marco"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["marco"][contador_interno].produto.preco = item.preco
 
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["marco"][contador].produto.preco)
-                dataset_vendas_meses["marco"][contador].produto.preco = precoDefinitivo
-                dados_marco_tratados.append(dataset_vendas_meses["marco"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["marco"][contador_interno].produto.preco)
+                dataset_vendas_meses["marco"][contador_interno].produto.preco = precoDefinitivo
+                dados_marco_tratados.append(dataset_vendas_meses["marco"][contador_interno])
+                contador_interno += 1
 
             if contador >= 180 and contador <= 239:
-                if(dataset_vendas_meses["abril"][contador].produto.nome == "" or dataset_vendas_meses["abril"][contador].produto.nome == " "):
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if(dataset_vendas_meses["abril"][contador_interno].produto.nome == "" or dataset_vendas_meses["abril"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
-                            dataset_vendas_meses["abril"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["abril"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["abril"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["abril"][contador].produto.categoria == "" or dataset_vendas_meses["abril"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["abril"][contador_interno].produto.categoria == "" or dataset_vendas_meses["abril"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
-                            dataset_vendas_meses["abril"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["abril"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["abril"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["abril"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["abril"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["abril"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["abril"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["abril"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["abril"][contador_interno].produto.preco = item.preco
 
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["abril"][contador].produto.preco)
-                dataset_vendas_meses["abril"][contador].produto.preco = precoDefinitivo
-                dados_abril_tratados.append(dataset_vendas_meses["abril"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["abril"][contador_interno].produto.preco)
+                dataset_vendas_meses["abril"][contador_interno].produto.preco = precoDefinitivo
+                dados_abril_tratados.append(dataset_vendas_meses["abril"][contador_interno])
+                contador_interno += 1
 
             if contador >= 240 and contador <= 299:
-                if(dataset_vendas_meses["maio"][contador].produto.nome == "" or dataset_vendas_meses["maio"][contador].produto.nome == " "):
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if(dataset_vendas_meses["maio"][contador_interno].produto.nome == "" or dataset_vendas_meses["maio"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
-                            dataset_vendas_meses["maio"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["maio"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["maio"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["maio"][contador].produto.categoria == "" or dataset_vendas_meses["maio"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["maio"][contador_interno].produto.categoria == "" or dataset_vendas_meses["maio"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
-                            dataset_vendas_meses["maio"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["maio"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["maio"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["maio"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["maio"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["maio"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["maio"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["maio"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["maio"][contador_interno].produto.preco = item.preco
 
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["maio"][contador].produto.preco)
-                dataset_vendas_meses["maio"][contador].produto.preco = precoDefinitivo
-                dados_maio_tratados.append(dataset_vendas_meses["maio"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["maio"][contador_interno].produto.preco)
+                dataset_vendas_meses["maio"][contador_interno].produto.preco = precoDefinitivo
+                dados_maio_tratados.append(dataset_vendas_meses["maio"][contador_interno])
+                contador_interno += 1
 
             if contador >= 300 and contador <= 359:
-                if(dataset_vendas_meses["junho"][contador].produto.nome == "" or dataset_vendas_meses["junho"][contador].produto.nome == " "):
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if(dataset_vendas_meses["junho"][contador_interno].produto.nome == "" or dataset_vendas_meses["junho"][contador_interno].produto.nome == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
-                            dataset_vendas_meses["junho"][contador].produto.nome = item.nome
+                        if dataset_vendas_meses["junho"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["junho"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["junho"][contador].produto.categoria == "" or dataset_vendas_meses["junho"][contador].produto.categoria == " "):
+                if(dataset_vendas_meses["junho"][contador_interno].produto.categoria == "" or dataset_vendas_meses["junho"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
-                            dataset_vendas_meses["junho"][contador].produto.categoria = item.categoria
+                        if dataset_vendas_meses["junho"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["junho"][contador_interno].produto.categoria = item.categoria
                             break
 
-                if (dataset_vendas_meses["junho"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["junho"][contador_interno].produto.preco == 0):
 
                     for item in lista_de_emergencia_produtos:
-                        if dataset_vendas_meses["junho"][contador].produto.id == item.id:
+                        if dataset_vendas_meses["junho"][contador_interno].produto.id == item.id:
                             self.formatar_numero(item.preco)
-                            dataset_vendas_meses["junho"][contador].produto.preco = item.preco
+                            dataset_vendas_meses["junho"][contador_interno].produto.preco = item.preco
 
                             break
 
-                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["junho"][contador].produto.preco)
-                dataset_vendas_meses["junho"][contador].produto.preco = precoDefinitivo
-                dados_junho_tratados.append(dataset_vendas_meses["junho"][contador])
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["junho"][contador_interno].produto.preco)
+                dataset_vendas_meses["junho"][contador_interno].produto.preco = precoDefinitivo
+                dados_junho_tratados.append(dataset_vendas_meses["junho"][contador_interno])
+                contador_interno += 1
 
-                if contador >= 360 and contador <= 419:
-                    if (dataset_vendas_meses["julho"][contador].produto.nome == "" or dataset_vendas_meses["julho"][contador].produto.nome == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
-                                dataset_vendas_meses["julho"][contador].produto.nome = item.nome
-                                break
+            if contador >= 360 and contador <= 419:
 
-                    if (dataset_vendas_meses["julho"][contador].produto.categoria == "" or
-                            dataset_vendas_meses["julho"][contador].produto.categoria == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
-                                dataset_vendas_meses["julho"][contador].produto.categoria = item.categoria
-                                break
+                if contador_interno == 60:
+                    contador_interno = 0
 
-                    if (dataset_vendas_meses["julho"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["julho"][contador_interno].produto.nome == "" or dataset_vendas_meses["julho"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["julho"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["julho"][contador_interno].produto.nome = item.nome
+                            break
 
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["julho"][contador].produto.id == item.id:
-                                self.formatar_numero(item.preco)
-                                dataset_vendas_meses["julho"][contador].produto.preco = item.preco
+                if (dataset_vendas_meses["julho"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["julho"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["julho"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["julho"][contador_interno].produto.categoria = item.categoria
+                            break
 
-                                break
+                if (dataset_vendas_meses["julho"][contador_interno].produto.preco == 0):
 
-                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["julho"][contador].produto.preco)
-                    dataset_vendas_meses["julho"][contador].produto.preco = precoDefinitivo
-                    dados_julho_tratados.append(dataset_vendas_meses["julho"][contador])
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["julho"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["julho"][contador_interno].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["julho"][contador_interno].produto.preco)
+                dataset_vendas_meses["julho"][contador_interno].produto.preco = precoDefinitivo
+                dados_julho_tratados.append(dataset_vendas_meses["julho"][contador_interno])
+                contador_interno += 1
 
 
-                if contador >= 420 and contador <= 479:
-                    if (dataset_vendas_meses["agosto"][contador].produto.nome == "" or dataset_vendas_meses["agosto"][contador].produto.nome == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
-                                dataset_vendas_meses["agosto"][contador].produto.nome = item.nome
-                                break
+            if contador >= 420 and contador <= 479:
 
-                    if (dataset_vendas_meses["agosto"][contador].produto.categoria == "" or
-                            dataset_vendas_meses["agosto"][contador].produto.categoria == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
-                                dataset_vendas_meses["agosto"][contador].produto.categoria = item.categoria
-                                break
+                if contador_interno == 60:
+                    contador_interno = 0
 
-                    if (dataset_vendas_meses["agosto"][contador].produto.preco == 0):
+                if (dataset_vendas_meses["agosto"][contador_interno].produto.nome == "" or dataset_vendas_meses["agosto"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["agosto"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["agosto"][contador_interno].produto.nome = item.nome
+                            break
 
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["agosto"][contador].produto.id == item.id:
-                                self.formatar_numero(item.preco)
-                                dataset_vendas_meses["agosto"][contador].produto.preco = item.preco
+                if (dataset_vendas_meses["agosto"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["agosto"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["agosto"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["agosto"][contador_interno].produto.categoria = item.categoria
+                            break
 
-                                break
+                if (dataset_vendas_meses["agosto"][contador_interno].produto.preco == 0):
 
-                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["agosto"][contador].produto.preco)
-                    dataset_vendas_meses["agosto"][contador].produto.preco = precoDefinitivo
-                    dados_agosto_tratados.append(dataset_vendas_meses["agosto"][contador])
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["agosto"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["agosto"][contador_interno].produto.preco = item.preco
 
-                if contador >= 480 and contador <= 539:
-                    if (dataset_vendas_meses["setembro"][contador].produto.nome == "" or dataset_vendas_meses["setembro"][contador].produto.nome == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                dataset_vendas_meses["setembro"][contador].produto.nome = item.nome
-                                break
+                            break
 
-                    if (dataset_vendas_meses["setembro"][contador].produto.categoria == "" or
-                            dataset_vendas_meses["setembro"][contador].produto.categoria == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                dataset_vendas_meses["setembro"][contador].produto.categoria = item.categoria
-                                break
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["agosto"][contador_interno].produto.preco)
+                dataset_vendas_meses["agosto"][contador_interno].produto.preco = precoDefinitivo
+                dados_agosto_tratados.append(dataset_vendas_meses["agosto"][contador_interno])
+                contador_interno += 1
 
-                    if (dataset_vendas_meses["setembro"][contador].produto.preco == 0):
+            if contador >= 480 and contador <= 539:
 
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                self.formatar_numero(item.preco)
-                                dataset_vendas_meses["setembro"][contador].produto.preco = item.preco
+                if contador_interno == 60:
+                    contador_interno = 0
 
-                                break
+                if (dataset_vendas_meses["setembro"][contador_interno].produto.nome == "" or dataset_vendas_meses["setembro"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["setembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["setembro"][contador_interno].produto.nome = item.nome
+                            break
 
-                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["setembro"][contador].produto.preco)
-                    dataset_vendas_meses["setembro"][contador].produto.preco = precoDefinitivo
-                    dados_setembro_tratados.append(dataset_vendas_meses["setembro"][contador])
+                if (dataset_vendas_meses["setembro"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["setembro"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["setembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["setembro"][contador_interno].produto.categoria = item.categoria
+                            break
 
-                if contador >= 540 and contador <= 599:
-                    if (dataset_vendas_meses["outubro"][contador].produto.nome == "" or dataset_vendas_meses["outubro"][contador].produto.nome == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                dataset_vendas_meses["setembro"][contador].produto.nome = item.nome
-                                break
+                if (dataset_vendas_meses["setembro"][contador_interno].produto.preco == 0):
 
-                    if (dataset_vendas_meses["setembro"][contador].produto.categoria == "" or
-                            dataset_vendas_meses["setembro"][contador].produto.categoria == " "):
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                dataset_vendas_meses["setembro"][contador].produto.categoria = item.categoria
-                                break
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["setembro"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["setembro"][contador_interno].produto.preco = item.preco
 
-                    if (dataset_vendas_meses["setembro"][contador].produto.preco == 0):
+                            break
 
-                        for item in lista_de_emergencia_produtos:
-                            if dataset_vendas_meses["setembro"][contador].produto.id == item.id:
-                                self.formatar_numero(item.preco)
-                                dataset_vendas_meses["setembro"][contador].produto.preco = item.preco
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["setembro"][contador_interno].produto.preco)
+                dataset_vendas_meses["setembro"][contador_interno].produto.preco = precoDefinitivo
+                dados_setembro_tratados.append(dataset_vendas_meses["setembro"][contador_interno])
+                contador_interno += 1
 
-                                break
+            if contador >= 540 and contador <= 599:
 
-                    precoDefinitivo = self.formatar_numero(dataset_vendas_meses["setembro"][contador].produto.preco)
-                    dataset_vendas_meses["setembro"][contador].produto.preco = precoDefinitivo
-                    dados_setembro_tratados.append(dataset_vendas_meses["setembro"][contador])
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if (dataset_vendas_meses["outubro"][contador_interno].produto.nome == "" or dataset_vendas_meses["outubro"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["outubro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["outubro"][contador_interno].produto.nome = item.nome
+                            break
+
+                if (dataset_vendas_meses["outubro"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["outubro"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["outubro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["outubro"][contador_interno].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["outubro"][contador_interno].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["outubro"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["outubro"][contador_interno].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["outubro"][contador_interno].produto.preco)
+                dataset_vendas_meses["outubro"][contador_interno].produto.preco = precoDefinitivo
+                dados_outubro_tratados.append(dataset_vendas_meses["outubro"][contador_interno])
+                contador_interno += 1
+
+            if contador >= 600 and contador <= 659:
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if (dataset_vendas_meses["novembro"][contador_interno].produto.nome == "" or dataset_vendas_meses["novembro"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["novembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["novembro"][contador_interno].produto.nome = item.nome
+                            break
+
+                if (dataset_vendas_meses["novembro"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["novembro"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["novembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["novembro"][contador_interno].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["novembro"][contador_interno].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["novembro"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["novembro"][contador_interno].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["novembro"][contador_interno].produto.preco)
+                dataset_vendas_meses["novembro"][contador_interno].produto.preco = precoDefinitivo
+                dados_novembro_tratados.append(dataset_vendas_meses["novembro"][contador_interno])
+                contador_interno += 1
+
+            if contador >= 660 and contador <= 719:
+
+                if contador_interno == 60:
+                    contador_interno = 0
+
+                if (dataset_vendas_meses["dezembro"][contador_interno].produto.nome == "" or dataset_vendas_meses["dezembro"][contador_interno].produto.nome == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["dezembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["dezembro"][contador_interno].produto.nome = item.nome
+                            break
+
+                if (dataset_vendas_meses["dezembro"][contador_interno].produto.categoria == "" or
+                        dataset_vendas_meses["dezembro"][contador_interno].produto.categoria == " "):
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["dezembro"][contador_interno].produto.id == item.id:
+                            dataset_vendas_meses["dezembro"][contador_interno].produto.categoria = item.categoria
+                            break
+
+                if (dataset_vendas_meses["dezembro"][contador_interno].produto.preco == 0):
+
+                    for item in lista_de_emergencia_produtos:
+                        if dataset_vendas_meses["dezembro"][contador_interno].produto.id == item.id:
+                            self.formatar_numero(item.preco)
+                            dataset_vendas_meses["dezembro"][contador_interno].produto.preco = item.preco
+
+                            break
+
+                precoDefinitivo = self.formatar_numero(dataset_vendas_meses["dezembro"][contador_interno].produto.preco)
+                dataset_vendas_meses["dezembro"][contador_interno].produto.preco = precoDefinitivo
+                dados_dezembro_tratados.append(dataset_vendas_meses["dezembro"][contador_interno])
+                contador_interno += 1
+
             contador +=1    
     
         
