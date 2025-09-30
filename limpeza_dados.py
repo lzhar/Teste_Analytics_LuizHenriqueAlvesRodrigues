@@ -1322,7 +1322,6 @@ class Dados:
             ignore_index=True
         )
 
-        # Salvar em CSV
         df_todos.to_csv("vendas_ano.csv", index=False)
 
 
