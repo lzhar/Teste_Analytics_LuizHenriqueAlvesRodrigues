@@ -1,5 +1,5 @@
 from datetime import datetime as date
-from decimal import Decimal, ROUND_DOWN
+import pandas as pd
 
 class Produto:
 
@@ -864,7 +864,7 @@ class Dados:
         produto6 = Produto(6, "Creme Dental Colgate", "Produtos de higiene pessoal", 6.95098)
         produto7 = Produto(7, "Batom Maybelline", "Produtos de beleza", 29.9012)
         produto8 = Produto(8, "Base Vult", "Produtos de beleza", 35.9032)
-        produto9 = Produto(9, "Perfume Natura", "Não consta", 89.993232)
+        produto9 = Produto(9, "Perfume Natura", "Produtos de beleza", 89.993232)
         produto10 = Produto(10, "Multivitamínico Centrum", "Produtos de bem-estar", 29.9099)
         produto11 = Produto(11, "Ômega 3 Sundown", "Produtos de bem-estar", 49.90332)
         produto12 = Produto(12, "Chá de Camomila", "Produtos de bem-estar", 4.9012)
@@ -926,7 +926,7 @@ class Dados:
                             dataset_vendas_meses["janeiro"][contador_interno].produto.nome = item.nome
                             break
 
-                if(dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == "" or dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == " "):
+                if(dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == "Não consta" or dataset_vendas_meses["janeiro"][contador_interno].produto.categoria == " "):
                     for item in lista_de_emergencia_produtos:
                         if dataset_vendas_meses["janeiro"][contador_interno].produto.id == item.id:
                             dataset_vendas_meses["janeiro"][contador_interno].produto.categoria = item.categoria
@@ -1295,15 +1295,37 @@ class Dados:
                 contador_interno += 1
 
             contador +=1    
-    
-        
-        
+
+
 
 
         return dataset_vendas_meses
 
+    def dados_para_dict(self, obj):
+        return {
+            "id": obj.id,
+            "data": obj.data,
+            "produto_nome": obj.produto.nome,
+            "produto_categoria": obj.produto.categoria,
+            "produto_preco": obj.produto.preco,
+            "quantidade": obj.quantidade
+        }
 
-    
+    def montar_csv(self):
+        data_set_vendas_meses = self.montar_data_set()
+        dfs_meses = {mes: pd.DataFrame([self.dados_para_dict(d) for d in lista])
+                     for mes, lista in data_set_vendas_meses.items()}
 
-dados = Dados(2, 2, "a", 1)    
-dados.montar_data_set()
+        # Concatenar todos os meses em um único DataFrame, adicionando coluna "mes"
+        df_todos = pd.concat(
+            [df.assign(mes=mes) for mes, df in dfs_meses.items()],
+            ignore_index=True
+        )
+
+        # Salvar em CSV
+        df_todos.to_csv("vendas_ano.csv", index=False)
+
+
+
+dados = Dados(2,2,2,2)
+dados.montar_csv()
