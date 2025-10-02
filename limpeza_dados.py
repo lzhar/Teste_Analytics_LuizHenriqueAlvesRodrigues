@@ -13,7 +13,7 @@ class Produto:
 
 class Dados:
 
-    def __init__(self, id, data, produto, quantidade):
+    def __init__(self, id=None, data=None, produto=None, quantidade=None):
         self.id = id
         self.data = data
         self.produto = produto
@@ -1326,5 +1326,5 @@ class Dados:
 
 
 
-dados = Dados(2,2,2,2)
+dados = Dados()
 dados.montar_csv()
