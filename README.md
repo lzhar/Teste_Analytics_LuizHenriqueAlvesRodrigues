@@ -83,11 +83,16 @@ produto21 = Produto(21, "Suco de Laranja Del Valle", "Produtos de conveniência"
 
 ``` 
 
-Estrutura do Dataset
+## 📊 Estrutura do Dataset
 
-O dataset é declarado como um dicionário, onde cada chave corresponde a um mês ("janeiro", "fevereiro", etc.), e cada valor é uma lista de 60 registros.
+O dataset é declarado como um **dicionário**, onde cada chave corresponde a um mês 🗓️ (`"janeiro"`, `"fevereiro"`, etc.) e cada valor é uma lista com **60 registros** 📝.
 
 # Tratamento de Dados Faltantes
+
+Este é um exemplo de como o tratamento funciona: a função verifica se há alguma informação faltante em cada registro.  
+Se houver, o dado é preenchido e, após o tratamento, é adicionado à lista correspondente (`append`).  
+Ao final, a função retorna o `dataset_vendas_meses`, que contém **60 registros de vendas por mês** 🗓️📝.
+
 ```
 while(contador < 720):
     if contador >= 0 and contador <= 59:
@@ -121,3 +126,18 @@ while(contador < 720):
         contador_interno += 1
 
 ```
+
+
+## 🔢 Função `formatar_numero()`
+
+A função `formatar_numero()` recebe um **número** como parâmetro e é utilizada para **padronizar os valores de preço**.  
+Ela retorna o valor já formatado com o número adequado de casas decimais.
+
+### Exemplos
+
+```python
+entrada = 9.9323232
+saida = formatar_numero(entrada)  # saída -> 9.93
+
+entrada = 9.9098899888
+saida = formatar_numero(entrada)  # saída -> 9.9
