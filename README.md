@@ -26,3 +26,28 @@ Instale as dependências com:
 
 ```bash
 pip install -r requirements.txt
+
+
+
+## 🏗️ Estrutura do Código — `limpeza_dados.py`
+
+No arquivo `limpeza_dados.py` temos duas classes principais:
+
+### 🔹 Classe `Produto`
+Representa os produtos da farmácia, com os seguintes atributos:
+- `id` → identificador único.  
+- `nome` → nome do produto.  
+- `categoria` → categoria do produto.  
+- `preco` → preço unitário.  
+
+### 🔹 Classe `Dados`
+Representa os registros de vendas, com os seguintes atributos:
+- `id` → identificador único do registro.  
+- `data` → data da venda.  
+- `produto` → instância da classe `Produto`.  
+- `quantidade` → quantidade vendida.  
+
+### 🔹 Função `montar_dados()`
+- Instancia **21 produtos diferentes**.  
+- Cria **720 objetos `Dados`**, sendo **60 registros por mês**.  
+- Retorna uma lista com **12 listas internas**, uma para cada mês de 2023:  
