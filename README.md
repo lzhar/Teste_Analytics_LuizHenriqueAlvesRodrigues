@@ -1,6 +1,7 @@
 # 🧪 Teste para Analytics — Luiz Henrique
 
 Este projeto foi desenvolvido em **Python** para simular e analisar dados de vendas de uma farmácia fictícia.
+As bibliotecas utilizadas foram  🐼 **Pandas**, 🧮**matplotlib**, 🗄️**sqlite3** e 📄**csv**
 
 ## 📌 Descrição do Projeto
 
@@ -141,3 +142,39 @@ saida = formatar_numero(entrada)  # saída -> 9.93
 
 entrada = 9.9098899888
 saida = formatar_numero(entrada)  # saída -> 9.9
+
+```
+
+## 🗂️ Função `dados_para_dict()`
+
+A função `dados_para_dict()` retorna um **dicionário padronizado** com os atributos de um objeto de dados.  
+Esse dicionário pode ser utilizado para **exportar os dados para um CSV** em outra função.
+
+### Corpo da função
+
+```python
+return {
+    "id": obj.id,
+    "data": obj.data,
+    "produto_nome": obj.produto.nome,
+    "produto_categoria": obj.produto.categoria,
+    "produto_preco": obj.produto.preco,
+    "quantidade": obj.quantidade
+}
+```
+
+
+## 📝 Função `montar_csv()`
+
+A função `montar_csv()` utiliza a biblioteca **pandas** para criar um **CSV** a partir dos dados retornados pela função `dados_para_dict()`.  
+Ao final, gera o arquivo chamado **`data_clean.csv`** contendo todos os registros padronizados.
+
+### Exemplo de uso
+
+```python
+# dados é uma lista de objetos Dados
+df = montar_csv(dados)
+# Cria o arquivo 'data_clean.csv'
+df.to_csv("data_clean.csv", index=False)
+
+```
