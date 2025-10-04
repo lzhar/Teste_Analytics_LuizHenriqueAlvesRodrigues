@@ -1,4 +1,4 @@
-.print "Produtos que venderam menos no mês de junho de 2024"
+.print "Produtos que venderam menos no mês de junho de 2023"
 
 SELECT produto_nome, SUM(quantidade) AS total_vendido
 FROM produtos
@@ -17,4 +17,3 @@ SELECT
 FROM produtos
 GROUP BY produto_nome, produto_categoria
 ORDER BY total_vendas DESC;
-

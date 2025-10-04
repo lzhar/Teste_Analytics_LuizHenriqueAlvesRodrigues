@@ -15,6 +15,38 @@ sudo apt update
 sudo apt install sqlite3
 ```
 
+## No windows
+
+# 🧩 Tutorial: Como Baixar e Instalar o SQLite no Windows
+
+O **SQLite** é um banco de dados leve e rápido, ótimo para pequenos projetos e aprendizado.  
+Abaixo está o passo a passo completo para instalá-lo no **Windows** 👇
+
+---
+
+## ⚙️ Passo 1 — Acessar o site oficial
+1. Abra o navegador e vá até o site oficial do SQLite:  
+   👉 [https://www.sqlite.org/download.html](https://www.sqlite.org/download.html)
+
+---
+
+## 📦 Passo 2 — Baixar os arquivos necessários
+Na seção **“Precompiled Binaries for Windows”**, baixe os seguintes arquivos:
+
+* 🧰 **sqlite-tools-win-x64-xxxx.zip**  
+  (Contém os executáveis `sqlite3.exe` e ferramentas úteis)
+
+* 📁 **sqlite-dll-win-x64-xxxx.zip** *(opcional)*  
+  (Contém as bibliotecas DLL, usadas apenas se for integrar o SQLite a outros programas)
+
+---
+
+## 🗂️ Passo 3 — Extrair os arquivos
+1. Vá até a pasta onde o arquivo `.zip` foi baixado.  
+2. Clique com o botão direito e escolha **“Extrair tudo...”**.  
+3. Mova a pasta extraída para um local definitivo, por exemplo:  
+4. Defina as variáveis de ambiente.
+
 # 📝 Passo a Passo
 
 1. 📂 **Clonar o repositório**.  
