@@ -178,3 +178,37 @@ df = montar_csv(dados)
 df.to_csv("data_clean.csv", index=False)
 
 ```
+
+
+# Comandos sql
+
+```
+SELECT produto_nome, SUM(quantidade) AS total_vendido
+FROM produtos
+WHERE data BETWEEN '2023-06-01' AND '2023-06-30'
+GROUP BY produto_nome
+ORDER BY total_vendido ASC;
+```
+
+## 📄 Explicação do comando SQL
+
+O comando SQL realiza o seguinte:
+
+- **Busca o produto baseado no nome**: `produto_nome`.  
+- **Soma a quantidade vendida de cada produto**: `SUM(quantidade)` e cria um alias `total_vendido`.  
+- **Origem dos dados**: `FROM produtos` indica que os dados vêm da tabela `produtos`.  
+- **Filtro de datas**: `WHERE data BETWEEN '2023-06-01' AND '2023-06-30'` seleciona apenas os registros do intervalo informado.  
+- **Agrupamento**: `GROUP BY produto_nome` agrupa todos os registros com o mesmo nome de produto.  
+- **Ordenação**: `ORDER BY total_vendido ASC` ordena os resultados em ordem crescente; os **menos vendidos aparecem primeiro**.
+
+✅ Este comando cumpre o objetivo de **identificar os produtos que venderam menos no mês de junho de 2024**.
+
+
+## 📊 Explicação do comando SQL
+
+O comando SQL realiza o seguinte:
+
+- **Seleciona as colunas**: `produto_nome`, `produto_categoria` e a soma de `quantidade * produto_preco`, criando um alias `total_vendas`.  
+- **Origem dos dados**: `FROM produtos` indica que os dados vêm da tabela `produtos`.  
+- **Agrupamento**: `GROUP BY produto_nome, produto_categoria` soma todas as vendas do mesmo produto dentro da mesma categoria.  
+- **Ordenação**: `ORDER BY total_vendas DESC` organiza os resultados em ordem decrescente, mostrando primeiro os produtos com maior faturamento.
