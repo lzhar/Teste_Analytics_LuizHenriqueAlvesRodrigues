@@ -17,3 +17,4 @@ SELECT
 FROM produtos
 GROUP BY produto_nome, produto_categoria
 ORDER BY total_vendas DESC;
+
