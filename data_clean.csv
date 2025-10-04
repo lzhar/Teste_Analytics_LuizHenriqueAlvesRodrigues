@@ -1,0 +1,721 @@
+id,data,produto_nome,produto_categoria,produto_preco,quantidade,mes
+1,2023-01-01,Multivitamínico Centrum,Produtos de bem-estar,29.9,4,janeiro
+2,2023-01-01,Ibuprofeno 400mg,Medicamentos,8.9,12,janeiro
+3,2023-01-01,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,7,janeiro
+4,2023-01-02,Shampoo Seda,Produtos de higiene pessoal,9.95,19,janeiro
+5,2023-01-02,Suco de Laranja Del Valle,Produtos de conveniência,4.9,25,janeiro
+6,2023-01-03,Base Vult,Produtos de beleza,35.9,3,janeiro
+7,2023-01-03,Lenço Umedecido Huggies,Produtos para bebês,9.9,44,janeiro
+8,2023-01-04,Paracetamol 500mg,Medicamentos,7.5,6,janeiro
+9,2023-01-04,Chocolate Snickers,Produtos de conveniência,5.49,18,janeiro
+10,2023-01-05,Batom Maybelline,Produtos de beleza,29.9,9,janeiro
+11,2023-01-05,Chá de Camomila,Produtos de bem-estar,4.9,30,janeiro
+12,2023-01-06,Biscoito Oreo,Produtos de conveniência,6.9,15,janeiro
+13,2023-01-07,Sabonete Lux,Produtos de higiene pessoal,3.5,21,janeiro
+14,2023-01-07,Fórmula Infantil Nan,Produtos para bebês,39.9,2,janeiro
+15,2023-01-08,Dipirona 500mg,Medicamentos,5.9,50,janeiro
+16,2023-01-08,Perfume Natura,Produtos de beleza,89.99,33,janeiro
+17,2023-01-09,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,11,janeiro
+18,2023-01-10,Creme Dental Colgate,Produtos de higiene pessoal,6.95,14,janeiro
+19,2023-01-10,Ômega 3 Sundown,Produtos de bem-estar,49.9,20,janeiro
+20,2023-01-11,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,5,janeiro
+21,2023-01-11,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,8,janeiro
+22,2023-01-12,Ibuprofeno 400mg,Medicamentos,8.9,40,janeiro
+23,2023-01-13,Suco de Laranja Del Valle,Produtos de conveniência,4.9,12,janeiro
+24,2023-01-13,Batom Maybelline,Produtos de beleza,29.9,28,janeiro
+25,2023-01-14,Shampoo Seda,Produtos de higiene pessoal,9.95,22,janeiro
+26,2023-01-15,Lenço Umedecido Huggies,Produtos para bebês,9.9,9,janeiro
+27,2023-01-15,Biscoito Oreo,Produtos de conveniência,6.9,37,janeiro
+28,2023-01-16,Paracetamol 500mg,Medicamentos,7.5,4,janeiro
+29,2023-01-16,Base Vult,Produtos de beleza,35.9,26,janeiro
+30,2023-01-17,Dipirona 500mg,Medicamentos,5.9,13,janeiro
+31,2023-01-17,Chocolate Snickers,Produtos de conveniência,5.49,31,janeiro
+32,2023-01-18,Creme Dental Colgate,Produtos de higiene pessoal,6.95,2,janeiro
+33,2023-01-18,Multivitamínico Centrum,Produtos de bem-estar,29.9,44,janeiro
+34,2023-01-19,Sabonete Lux,Produtos de higiene pessoal,3.5,7,janeiro
+35,2023-01-20,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,19,janeiro
+36,2023-01-20,Perfume Natura,Produtos de beleza,89.99,10,janeiro
+37,2023-01-21,Chá de Camomila,Produtos de bem-estar,4.9,36,janeiro
+38,2023-01-21,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,5,janeiro
+39,2023-01-22,Fórmula Infantil Nan,Produtos para bebês,39.9,27,janeiro
+40,2023-01-23,Ômega 3 Sundown,Produtos de bem-estar,49.9,1,janeiro
+41,2023-01-23,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,48,janeiro
+42,2023-01-24,Biscoito Oreo,Produtos de conveniência,6.9,15,janeiro
+43,2023-01-25,Batom Maybelline,Produtos de beleza,29.9,23,janeiro
+44,2023-01-25,Ibuprofeno 400mg,Medicamentos,8.9,6,janeiro
+45,2023-01-26,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,35,janeiro
+46,2023-01-27,Dipirona 500mg,Medicamentos,5.9,17,janeiro
+47,2023-01-27,Chocolate Snickers,Produtos de conveniência,5.49,9,janeiro
+48,2023-01-28,Base Vult,Produtos de beleza,35.9,41,janeiro
+49,2023-01-29,Suco de Laranja Del Valle,Produtos de conveniência,4.9,14,janeiro
+50,2023-01-29,Lenço Umedecido Huggies,Produtos para bebês,9.9,8,janeiro
+51,2023-01-30,Shampoo Seda,Produtos de higiene pessoal,9.95,30,janeiro
+52,2023-01-30,Perfume Natura,Produtos de beleza,89.99,4,janeiro
+53,2023-01-31,Chá de Camomila,Produtos de bem-estar,4.9,12,janeiro
+54,2023-01-31,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,47,janeiro
+55,2023-01-31,Paracetamol 500mg,Medicamentos,7.5,20,janeiro
+56,2023-01-31,Multivitamínico Centrum,Produtos de bem-estar,29.9,16,janeiro
+57,2023-01-31,Sabonete Lux,Produtos de higiene pessoal,3.5,7,janeiro
+58,2023-01-31,Fórmula Infantil Nan,Produtos para bebês,39.9,29,janeiro
+59,2023-01-31,Creme Dental Colgate,Produtos de higiene pessoal,6.95,3,janeiro
+60,2023-01-31,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,10,janeiro
+61,2023-02-01,Shampoo Seda,Produtos de higiene pessoal,9.95,14,fevereiro
+62,2023-02-01,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,8,fevereiro
+63,2023-02-01,Ibuprofeno 400mg,Medicamentos,8.9,22,fevereiro
+64,2023-02-02,Chá de Camomila,Produtos de bem-estar,4.9,19,fevereiro
+65,2023-02-02,Suco de Laranja Del Valle,Produtos de conveniência,4.9,31,fevereiro
+66,2023-02-03,Paracetamol 500mg,Medicamentos,7.5,5,fevereiro
+67,2023-02-03,Base Vult,Produtos de beleza,35.9,12,fevereiro
+68,2023-02-03,Lenço Umedecido Huggies,Produtos para bebês,9.9,28,fevereiro
+69,2023-02-04,Chocolate Snickers,Produtos de conveniência,5.49,7,fevereiro
+70,2023-02-04,Dipirona 500mg,Medicamentos,5.9,24,fevereiro
+71,2023-02-05,Perfume Natura,Produtos de beleza,89.99,11,fevereiro
+72,2023-02-05,Creme Dental Colgate,Produtos de higiene pessoal,6.95,16,fevereiro
+73,2023-02-06,Biscoito Oreo,Produtos de conveniência,6.9,21,fevereiro
+74,2023-02-06,Sabonete Lux,Produtos de higiene pessoal,3.5,9,fevereiro
+75,2023-02-07,Ômega 3 Sundown,Produtos de bem-estar,49.9,33,fevereiro
+76,2023-02-07,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,4,fevereiro
+77,2023-02-08,Batom Maybelline,Produtos de beleza,29.9,18,fevereiro
+78,2023-02-08,Fórmula Infantil Nan,Produtos para bebês,39.9,13,fevereiro
+79,2023-02-09,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,27,fevereiro
+80,2023-02-09,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,6,fevereiro
+81,2023-02-10,Shampoo Seda,Produtos de higiene pessoal,9.95,29,fevereiro
+82,2023-02-10,Suco de Laranja Del Valle,Produtos de conveniência,4.9,10,fevereiro
+83,2023-02-11,Dipirona 500mg,Medicamentos,5.9,22,fevereiro
+84,2023-02-11,Chá de Camomila,Produtos de bem-estar,4.9,17,fevereiro
+85,2023-02-12,Base Vult,Produtos de beleza,35.9,8,fevereiro
+86,2023-02-12,Lenço Umedecido Huggies,Produtos para bebês,9.9,25,fevereiro
+87,2023-02-13,Ibuprofeno 400mg,Medicamentos,8.9,12,fevereiro
+88,2023-02-13,Creme Dental Colgate,Produtos de higiene pessoal,6.95,19,fevereiro
+89,2023-02-14,Biscoito Oreo,Produtos de conveniência,6.9,15,fevereiro
+90,2023-02-14,Paracetamol 500mg,Medicamentos,7.5,23,fevereiro
+91,2023-02-15,Perfume Natura,Produtos de beleza,89.99,7,fevereiro
+92,2023-02-15,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,32,fevereiro
+93,2023-02-16,Batom Maybelline,Produtos de beleza,29.9,5,fevereiro
+94,2023-02-16,Sabonete Lux,Produtos de higiene pessoal,3.5,14,fevereiro
+95,2023-02-17,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,26,fevereiro
+96,2023-02-17,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,9,fevereiro
+97,2023-02-18,Ômega 3 Sundown,Produtos de bem-estar,49.9,21,fevereiro
+98,2023-02-18,Chocolate Snickers,Produtos de conveniência,5.49,11,fevereiro
+99,2023-02-19,Fórmula Infantil Nan,Produtos para bebês,39.9,30,fevereiro
+100,2023-02-19,Multivitamínico Centrum,Produtos de bem-estar,29.9,8,fevereiro
+101,2023-02-20,Dipirona 500mg,Medicamentos,5.9,17,fevereiro
+102,2023-02-20,Suco de Laranja Del Valle,Produtos de conveniência,4.9,4,fevereiro
+103,2023-02-21,Chá de Camomila,Produtos de bem-estar,4.9,28,fevereiro
+104,2023-02-21,Shampoo Seda,Produtos de higiene pessoal,9.95,13,fevereiro
+105,2023-02-22,Base Vult,Produtos de beleza,35.9,16,fevereiro
+106,2023-02-22,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,6,fevereiro
+107,2023-02-23,Ibuprofeno 400mg,Medicamentos,8.9,24,fevereiro
+108,2023-02-23,Biscoito Oreo,Produtos de conveniência,6.9,12,fevereiro
+109,2023-02-24,Creme Dental Colgate,Produtos de higiene pessoal,6.95,7,fevereiro
+110,2023-02-24,Chocolate Snickers,Produtos de conveniência,5.49,20,fevereiro
+111,2023-02-25,Ômega 3 Sundown,Produtos de bem-estar,49.9,10,fevereiro
+112,2023-02-25,Paracetamol 500mg,Medicamentos,7.5,31,fevereiro
+113,2023-02-26,Perfume Natura,Produtos de beleza,89.99,15,fevereiro
+114,2023-02-26,Lenço Umedecido Huggies,Produtos para bebês,9.9,22,fevereiro
+115,2023-02-27,Sabonete Lux,Produtos de higiene pessoal,3.5,8,fevereiro
+116,2023-02-27,Batom Maybelline,Produtos de beleza,29.9,19,fevereiro
+117,2023-02-28,Dipirona 500mg,Medicamentos,5.9,11,fevereiro
+118,2023-02-28,Suco de Laranja Del Valle,Produtos de conveniência,4.9,26,fevereiro
+119,2023-02-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,5,fevereiro
+120,2023-02-28,Chá de Camomila,Produtos de bem-estar,4.9,18,fevereiro
+121,2023-03-01,Batom Maybelline,Produtos de beleza,29.9,12,marco
+122,2023-03-01,Chocolate Snickers,Produtos de conveniência,5.49,25,marco
+123,2023-03-02,Dipirona 500mg,Medicamentos,5.9,7,marco
+124,2023-03-02,Fórmula Infantil Nan,Produtos para bebês,39.9,18,marco
+125,2023-03-03,Ômega 3 Sundown,Produtos de bem-estar,49.9,30,marco
+126,2023-03-03,Sabonete Lux,Produtos de higiene pessoal,3.5,9,marco
+127,2023-03-03,Base Vult,Produtos de beleza,35.9,22,marco
+128,2023-03-04,Suco de Laranja Del Valle,Produtos de conveniência,4.9,15,marco
+129,2023-03-04,Shampoo Seda,Produtos de higiene pessoal,9.95,31,marco
+130,2023-03-05,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,11,marco
+131,2023-03-05,Ibuprofeno 400mg,Medicamentos,8.9,24,marco
+132,2023-03-06,Perfume Natura,Produtos de beleza,89.99,6,marco
+133,2023-03-06,Biscoito Oreo,Produtos de conveniência,6.9,20,marco
+134,2023-03-07,Chá de Camomila,Produtos de bem-estar,4.9,14,marco
+135,2023-03-07,Creme Dental Colgate,Produtos de higiene pessoal,6.95,27,marco
+136,2023-03-08,Lenço Umedecido Huggies,Produtos para bebês,9.9,5,marco
+137,2023-03-08,Paracetamol 500mg,Medicamentos,7.5,19,marco
+138,2023-03-09,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,8,marco
+139,2023-03-09,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,21,marco
+140,2023-03-10,Multivitamínico Centrum,Produtos de bem-estar,29.9,13,marco
+141,2023-03-10,Dipirona 500mg,Medicamentos,5.9,30,marco
+142,2023-03-11,Batom Maybelline,Produtos de beleza,29.9,7,marco
+143,2023-03-11,Suco de Laranja Del Valle,Produtos de conveniência,4.9,26,marco
+144,2023-03-12,Shampoo Seda,Produtos de higiene pessoal,9.95,10,marco
+145,2023-03-12,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,29,marco
+146,2023-03-13,Ibuprofeno 400mg,Medicamentos,8.9,12,marco
+147,2023-03-13,Perfume Natura,Produtos de beleza,89.99,22,marco
+148,2023-03-14,Base Vult,Produtos de beleza,35.9,3,marco
+149,2023-03-14,Biscoito Oreo,Produtos de conveniência,6.9,24,marco
+150,2023-03-15,Creme Dental Colgate,Produtos de higiene pessoal,6.95,9,marco
+151,2023-03-15,Chá de Camomila,Produtos de bem-estar,4.9,31,marco
+152,2023-03-16,Sabonete Lux,Produtos de higiene pessoal,3.5,16,marco
+153,2023-03-16,Fórmula Infantil Nan,Produtos para bebês,39.9,5,marco
+154,2023-03-17,Ômega 3 Sundown,Produtos de bem-estar,49.9,27,marco
+155,2023-03-17,Chocolate Snickers,Produtos de conveniência,5.49,6,marco
+156,2023-03-18,Paracetamol 500mg,Medicamentos,7.5,19,marco
+157,2023-03-18,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,10,marco
+158,2023-03-19,Lenço Umedecido Huggies,Produtos para bebês,9.9,23,marco
+159,2023-03-19,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,12,marco
+160,2023-03-20,Batom Maybelline,Produtos de beleza,29.9,29,marco
+161,2023-03-20,Chá de Camomila,Produtos de bem-estar,4.9,4,marco
+162,2023-03-21,Ibuprofeno 400mg,Medicamentos,8.9,21,marco
+163,2023-03-21,Chocolate Snickers,Produtos de conveniência,5.49,8,marco
+164,2023-03-22,Shampoo Seda,Produtos de higiene pessoal,9.95,18,marco
+165,2023-03-22,Base Vult,Produtos de beleza,35.9,5,marco
+166,2023-03-23,Dipirona 500mg,Medicamentos,5.9,27,marco
+167,2023-03-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,14,marco
+168,2023-03-24,Ômega 3 Sundown,Produtos de bem-estar,49.9,22,marco
+169,2023-03-24,Creme Dental Colgate,Produtos de higiene pessoal,6.95,7,marco
+170,2023-03-25,Suco de Laranja Del Valle,Produtos de conveniência,4.9,30,marco
+171,2023-03-25,Paracetamol 500mg,Medicamentos,7.5,11,marco
+172,2023-03-26,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,19,marco
+173,2023-03-26,Sabonete Lux,Produtos de higiene pessoal,3.5,6,marco
+174,2023-03-27,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,23,marco
+175,2023-03-27,Perfume Natura,Produtos de beleza,89.99,9,marco
+176,2023-03-28,Ibuprofeno 400mg,Medicamentos,8.9,26,marco
+177,2023-03-28,Batom Maybelline,Produtos de beleza,29.9,13,marco
+178,2023-03-29,Shampoo Seda,Produtos de higiene pessoal,9.95,18,marco
+179,2023-03-29,Multivitamínico Centrum,Produtos de bem-estar,29.9,4,marco
+180,2023-03-30,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,28,marco
+181,2023-04-01,Dipirona 500mg,Medicamentos,5.9,14,abril
+182,2023-04-01,Base Vult,Produtos de beleza,35.9,27,abril
+183,2023-04-02,Ômega 3 Sundown,Produtos de bem-estar,49.9,9,abril
+184,2023-04-02,Fórmula Infantil Nan,Produtos para bebês,39.9,21,abril
+185,2023-04-03,Ibuprofeno 400mg,Medicamentos,8.9,5,abril
+186,2023-04-03,Creme Dental Colgate,Produtos de higiene pessoal,6.95,18,abril
+187,2023-04-03,Chocolate Snickers,Produtos de conveniência,5.49,24,abril
+188,2023-04-04,Paracetamol 500mg,Medicamentos,7.5,11,abril
+189,2023-04-04,Suco de Laranja Del Valle,Produtos de conveniência,4.9,30,abril
+190,2023-04-05,Sabonete Lux,Produtos de higiene pessoal,3.5,7,abril
+191,2023-04-05,Chá de Camomila,Produtos de bem-estar,4.9,25,abril
+192,2023-04-06,Lenço Umedecido Huggies,Produtos para bebês,9.9,12,abril
+193,2023-04-06,Base Vult,Produtos de beleza,35.9,28,abril
+194,2023-04-07,Dipirona 500mg,Medicamentos,5.9,4,abril
+195,2023-04-07,Shampoo Seda,Produtos de higiene pessoal,9.95,17,abril
+196,2023-04-08,Perfume Natura,Produtos de beleza,89.99,22,abril
+197,2023-04-08,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,8,abril
+198,2023-04-09,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,19,abril
+199,2023-04-09,Batom Maybelline,Produtos de beleza,29.9,6,abril
+200,2023-04-10,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,26,abril
+201,2023-04-10,Ibuprofeno 400mg,Medicamentos,8.9,10,abril
+202,2023-04-11,Paracetamol 500mg,Medicamentos,7.5,14,abril
+203,2023-04-11,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,29,abril
+204,2023-04-12,Creme Dental Colgate,Produtos de higiene pessoal,6.95,3,abril
+205,2023-04-12,Perfume Natura,Produtos de beleza,89.99,21,abril
+206,2023-04-13,Biscoito Oreo,Produtos de conveniência,6.9,7,abril
+207,2023-04-13,Fórmula Infantil Nan,Produtos para bebês,39.9,24,abril
+208,2023-04-14,Dipirona 500mg,Medicamentos,5.9,5,abril
+209,2023-04-14,Sabonete Lux,Produtos de higiene pessoal,3.5,20,abril
+210,2023-04-15,Ômega 3 Sundown,Produtos de bem-estar,49.9,12,abril
+211,2023-04-15,Batom Maybelline,Produtos de beleza,29.9,27,abril
+212,2023-04-16,Lenço Umedecido Huggies,Produtos para bebês,9.9,8,abril
+213,2023-04-16,Shampoo Seda,Produtos de higiene pessoal,9.95,23,abril
+214,2023-04-17,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,16,abril
+215,2023-04-17,Chá de Camomila,Produtos de bem-estar,4.9,30,abril
+216,2023-04-18,Chocolate Snickers,Produtos de conveniência,5.49,4,abril
+217,2023-04-18,Suco de Laranja Del Valle,Produtos de conveniência,4.9,18,abril
+218,2023-04-19,Base Vult,Produtos de beleza,35.9,11,abril
+219,2023-04-19,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,28,abril
+220,2023-04-20,Creme Dental Colgate,Produtos de higiene pessoal,6.95,9,abril
+221,2023-04-20,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,26,abril
+222,2023-04-21,Ibuprofeno 400mg,Medicamentos,8.9,15,abril
+223,2023-04-21,Multivitamínico Centrum,Produtos de bem-estar,29.9,19,abril
+224,2023-04-22,Fórmula Infantil Nan,Produtos para bebês,39.9,7,abril
+225,2023-04-22,Dipirona 500mg,Medicamentos,5.9,23,abril
+226,2023-04-23,Chá de Camomila,Produtos de bem-estar,4.9,6,abril
+227,2023-04-23,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,25,abril
+228,2023-04-24,Shampoo Seda,Produtos de higiene pessoal,9.95,13,abril
+229,2023-04-24,Suco de Laranja Del Valle,Produtos de conveniência,4.9,30,abril
+230,2023-04-25,Ômega 3 Sundown,Produtos de bem-estar,49.9,8,abril
+231,2023-04-25,Sabonete Lux,Produtos de higiene pessoal,3.5,17,abril
+232,2023-04-26,Batom Maybelline,Produtos de beleza,29.9,22,abril
+233,2023-04-26,Paracetamol 500mg,Medicamentos,7.5,10,abril
+234,2023-04-27,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,27,abril
+235,2023-04-27,Lenço Umedecido Huggies,Produtos para bebês,9.9,12,abril
+236,2023-04-28,Chocolate Snickers,Produtos de conveniência,5.49,20,abril
+237,2023-04-28,Perfume Natura,Produtos de beleza,89.99,5,abril
+238,2023-04-29,Ibuprofeno 400mg,Medicamentos,8.9,29,abril
+239,2023-04-29,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,14,abril
+240,2023-04-29,Base Vult,Produtos de beleza,35.9,11,abril
+241,2023-05-01,Biscoito Oreo,Produtos de conveniência,6.9,16,maio
+242,2023-05-01,Dipirona 500mg,Medicamentos,5.9,28,maio
+243,2023-05-02,Batom Maybelline,Produtos de beleza,29.9,9,maio
+244,2023-05-02,Ômega 3 Sundown,Produtos de bem-estar,49.9,25,maio
+245,2023-05-03,Paracetamol 500mg,Medicamentos,7.5,12,maio
+246,2023-05-03,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,19,maio
+247,2023-05-04,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,27,maio
+248,2023-05-04,Ibuprofeno 400mg,Medicamentos,8.9,8,maio
+249,2023-05-05,Suco de Laranja Del Valle,Produtos de conveniência,4.9,30,maio
+250,2023-05-05,Shampoo Seda,Produtos de higiene pessoal,9.95,11,maio
+251,2023-05-06,Multivitamínico Centrum,Produtos de bem-estar,29.9,24,maio
+252,2023-05-06,Base Vult,Produtos de beleza,35.9,7,maio
+253,2023-05-07,Lenço Umedecido Huggies,Produtos para bebês,9.9,22,maio
+254,2023-05-07,Creme Dental Colgate,Produtos de higiene pessoal,6.95,14,maio
+255,2023-05-08,Chá de Camomila,Produtos de bem-estar,4.9,18,maio
+256,2023-05-08,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,29,maio
+257,2023-05-09,Paracetamol 500mg,Medicamentos,7.5,5,maio
+258,2023-05-09,Fórmula Infantil Nan,Produtos para bebês,39.9,20,maio
+259,2023-05-10,Perfume Natura,Produtos de beleza,89.99,15,maio
+260,2023-05-10,Chocolate Snickers,Produtos de conveniência,5.49,26,maio
+261,2023-05-11,Shampoo Seda,Produtos de higiene pessoal,9.95,13,maio
+262,2023-05-11,Chá de Camomila,Produtos de bem-estar,4.9,21,maio
+263,2023-05-12,Base Vult,Produtos de beleza,35.9,30,maio
+264,2023-05-12,Ibuprofeno 400mg,Medicamentos,8.9,6,maio
+265,2023-05-13,Suco de Laranja Del Valle,Produtos de conveniência,4.9,19,maio
+266,2023-05-13,Batom Maybelline,Produtos de beleza,29.9,9,maio
+267,2023-05-14,Lenço Umedecido Huggies,Produtos para bebês,9.9,24,maio
+268,2023-05-14,Paracetamol 500mg,Medicamentos,7.5,11,maio
+269,2023-05-15,Perfume Natura,Produtos de beleza,89.99,17,maio
+270,2023-05-15,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,28,maio
+271,2023-05-16,Dipirona 500mg,Medicamentos,5.9,7,maio
+272,2023-05-16,Chocolate Snickers,Produtos de conveniência,5.49,23,maio
+273,2023-05-17,Creme Dental Colgate,Produtos de higiene pessoal,6.95,16,maio
+274,2023-05-17,Ômega 3 Sundown,Produtos de bem-estar,49.9,27,maio
+275,2023-05-18,Sabonete Lux,Produtos de higiene pessoal,3.5,4,maio
+276,2023-05-18,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,22,maio
+277,2023-05-19,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,14,maio
+278,2023-05-19,Fórmula Infantil Nan,Produtos para bebês,39.9,30,maio
+279,2023-05-20,Multivitamínico Centrum,Produtos de bem-estar,29.9,6,maio
+280,2023-05-20,Biscoito Oreo,Produtos de conveniência,6.9,25,maio
+281,2023-05-21,Base Vult,Produtos de beleza,35.9,12,maio
+282,2023-05-21,Ibuprofeno 400mg,Medicamentos,8.9,18,maio
+283,2023-05-22,Shampoo Seda,Produtos de higiene pessoal,9.95,29,maio
+284,2023-05-22,Chá de Camomila,Produtos de bem-estar,4.9,9,maio
+285,2023-05-23,Batom Maybelline,Produtos de beleza,29.9,15,maio
+286,2023-05-23,Dipirona 500mg,Medicamentos,5.9,20,maio
+287,2023-05-24,Lenço Umedecido Huggies,Produtos para bebês,9.9,8,maio
+288,2023-05-24,Perfume Natura,Produtos de beleza,89.99,27,maio
+289,2023-05-25,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,13,maio
+290,2023-05-25,Creme Dental Colgate,Produtos de higiene pessoal,6.95,22,maio
+291,2023-05-26,Paracetamol 500mg,Medicamentos,7.5,18,maio
+292,2023-05-26,Ômega 3 Sundown,Produtos de bem-estar,49.9,6,maio
+293,2023-05-27,Suco de Laranja Del Valle,Produtos de conveniência,4.9,28,maio
+294,2023-05-27,Sabonete Lux,Produtos de higiene pessoal,3.5,10,maio
+295,2023-05-28,Fórmula Infantil Nan,Produtos para bebês,39.9,19,maio
+296,2023-05-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,25,maio
+297,2023-05-29,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,30,maio
+298,2023-05-30,Multivitamínico Centrum,Produtos de bem-estar,29.9,7,maio
+299,2023-05-30,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,16,maio
+300,2023-05-31,Chocolate Snickers,Produtos de conveniência,5.49,23,maio
+301,2023-06-01,Creme Dental Colgate,Produtos de higiene pessoal,6.95,19,junho
+302,2023-06-01,Dipirona 500mg,Medicamentos,5.9,9,junho
+303,2023-06-02,Chocolate Snickers,Produtos de conveniência,5.49,24,junho
+304,2023-06-02,Ômega 3 Sundown,Produtos de bem-estar,49.9,15,junho
+305,2023-06-03,Batom Maybelline,Produtos de beleza,29.9,27,junho
+306,2023-06-03,Lenço Umedecido Huggies,Produtos para bebês,9.9,8,junho
+307,2023-06-04,Ibuprofeno 400mg,Medicamentos,8.9,21,junho
+308,2023-06-04,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,12,junho
+309,2023-06-05,Biscoito Oreo,Produtos de conveniência,6.9,29,junho
+310,2023-06-05,Shampoo Seda,Produtos de higiene pessoal,9.95,16,junho
+311,2023-06-06,Perfume Natura,Produtos de beleza,89.99,10,junho
+312,2023-06-06,Paracetamol 500mg,Medicamentos,7.5,23,junho
+313,2023-06-07,Chá de Camomila,Produtos de bem-estar,4.9,6,junho
+314,2023-06-07,Base Vult,Produtos de beleza,35.9,18,junho
+315,2023-06-08,Sabonete Lux,Produtos de higiene pessoal,3.5,25,junho
+316,2023-06-08,Suco de Laranja Del Valle,Produtos de conveniência,4.9,14,junho
+317,2023-06-09,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,28,junho
+318,2023-06-09,Fórmula Infantil Nan,Produtos para bebês,39.9,7,junho
+319,2023-06-10,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,20,junho
+320,2023-06-10,Creme Dental Colgate,Produtos de higiene pessoal,6.95,11,junho
+321,2023-06-11,Ibuprofeno 400mg,Medicamentos,8.9,30,junho
+322,2023-06-11,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,9,junho
+323,2023-06-12,Dipirona 500mg,Medicamentos,5.9,17,junho
+324,2023-06-12,Batom Maybelline,Produtos de beleza,29.9,5,junho
+325,2023-06-13,Lenço Umedecido Huggies,Produtos para bebês,9.9,22,junho
+326,2023-06-13,Perfume Natura,Produtos de beleza,89.99,13,junho
+327,2023-06-14,Shampoo Seda,Produtos de higiene pessoal,9.95,27,junho
+328,2023-06-14,Chá de Camomila,Produtos de bem-estar,4.9,6,junho
+329,2023-06-15,Multivitamínico Centrum,Produtos de bem-estar,29.9,19,junho
+330,2023-06-15,Paracetamol 500mg,Medicamentos,7.5,14,junho
+331,2023-06-16,Base Vult,Produtos de beleza,35.9,8,junho
+332,2023-06-16,Biscoito Oreo,Produtos de conveniência,6.9,25,junho
+333,2023-06-17,Sabonete Lux,Produtos de higiene pessoal,3.5,18,junho
+334,2023-06-17,Chocolate Snickers,Produtos de conveniência,5.49,30,junho
+335,2023-06-18,Creme Dental Colgate,Produtos de higiene pessoal,6.95,12,junho
+336,2023-06-18,Fórmula Infantil Nan,Produtos para bebês,39.9,21,junho
+337,2023-06-19,Ômega 3 Sundown,Produtos de bem-estar,49.9,9,junho
+338,2023-06-19,Ibuprofeno 400mg,Medicamentos,8.9,26,junho
+339,2023-06-20,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,7,junho
+340,2023-06-20,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,15,junho
+341,2023-06-21,Dipirona 500mg,Medicamentos,5.9,28,junho
+342,2023-06-21,Base Vult,Produtos de beleza,35.9,11,junho
+343,2023-06-22,Chá de Camomila,Produtos de bem-estar,4.9,24,junho
+344,2023-06-22,Suco de Laranja Del Valle,Produtos de conveniência,4.9,10,junho
+345,2023-06-23,Batom Maybelline,Produtos de beleza,29.9,18,junho
+346,2023-06-23,Sabonete Lux,Produtos de higiene pessoal,3.5,5,junho
+347,2023-06-24,Lenço Umedecido Huggies,Produtos para bebês,9.9,22,junho
+348,2023-06-24,Multivitamínico Centrum,Produtos de bem-estar,29.9,14,junho
+349,2023-06-25,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,30,junho
+350,2023-06-25,Paracetamol 500mg,Medicamentos,7.5,16,junho
+351,2023-06-26,Ômega 3 Sundown,Produtos de bem-estar,49.9,20,junho
+352,2023-06-26,Creme Dental Colgate,Produtos de higiene pessoal,6.95,6,junho
+353,2023-06-27,Chocolate Snickers,Produtos de conveniência,5.49,23,junho
+354,2023-06-27,Ibuprofeno 400mg,Medicamentos,8.9,19,junho
+355,2023-06-28,Base Vult,Produtos de beleza,35.9,13,junho
+356,2023-06-28,Fórmula Infantil Nan,Produtos para bebês,39.9,29,junho
+357,2023-06-29,Paracetamol 500mg,Medicamentos,7.5,17,junho
+358,2023-06-29,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,9,junho
+359,2023-06-30,Suco de Laranja Del Valle,Produtos de conveniência,4.9,26,junho
+360,2023-06-30,Sabonete Lux,Produtos de higiene pessoal,3.5,12,junho
+361,2023-07-01,Batom Maybelline,Produtos de beleza,29.9,14,julho
+362,2023-07-01,Multivitamínico Centrum,Produtos de bem-estar,29.9,27,julho
+363,2023-07-02,Dipirona 500mg,Medicamentos,5.9,10,julho
+364,2023-07-02,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,22,julho
+365,2023-07-03,Shampoo Seda,Produtos de higiene pessoal,9.95,30,julho
+366,2023-07-03,Chá de Camomila,Produtos de bem-estar,4.9,18,julho
+367,2023-07-04,Perfume Natura,Produtos de beleza,89.99,7,julho
+368,2023-07-04,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,25,julho
+369,2023-07-05,Biscoito Oreo,Produtos de conveniência,6.9,13,julho
+370,2023-07-05,Lenço Umedecido Huggies,Produtos para bebês,9.9,19,julho
+371,2023-07-06,Base Vult,Produtos de beleza,35.9,21,julho
+372,2023-07-06,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,9,julho
+373,2023-07-07,Creme Dental Colgate,Produtos de higiene pessoal,6.95,28,julho
+374,2023-07-07,Ibuprofeno 400mg,Medicamentos,8.9,15,julho
+375,2023-07-08,Ômega 3 Sundown,Produtos de bem-estar,49.9,11,julho
+376,2023-07-08,Paracetamol 500mg,Medicamentos,7.5,23,julho
+377,2023-07-09,Perfume Natura,Produtos de beleza,89.99,29,julho
+378,2023-07-09,Suco de Laranja Del Valle,Produtos de conveniência,4.9,17,julho
+379,2023-07-10,Fórmula Infantil Nan,Produtos para bebês,39.9,8,julho
+380,2023-07-10,Shampoo Seda,Produtos de higiene pessoal,9.95,26,julho
+381,2023-07-11,Dipirona 500mg,Medicamentos,5.9,20,julho
+382,2023-07-11,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,12,julho
+383,2023-07-12,Sabonete Lux,Produtos de higiene pessoal,3.5,24,julho
+384,2023-07-12,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,7,julho
+385,2023-07-13,Multivitamínico Centrum,Produtos de bem-estar,29.9,18,julho
+386,2023-07-13,Chá de Camomila,Produtos de bem-estar,4.9,30,julho
+387,2023-07-14,Batom Maybelline,Produtos de beleza,29.9,16,julho
+388,2023-07-14,Chocolate Snickers,Produtos de conveniência,5.49,5,julho
+389,2023-07-15,Creme Dental Colgate,Produtos de higiene pessoal,6.95,22,julho
+390,2023-07-15,Ibuprofeno 400mg,Medicamentos,8.9,28,julho
+391,2023-07-16,Suco de Laranja Del Valle,Produtos de conveniência,4.9,9,julho
+392,2023-07-16,Paracetamol 500mg,Medicamentos,7.5,25,julho
+393,2023-07-17,Base Vult,Produtos de beleza,35.9,13,julho
+394,2023-07-17,Lenço Umedecido Huggies,Produtos para bebês,9.9,21,julho
+395,2023-07-18,Perfume Natura,Produtos de beleza,89.99,15,julho
+396,2023-07-18,Dipirona 500mg,Medicamentos,5.9,10,julho
+397,2023-07-19,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,27,julho
+398,2023-07-19,Shampoo Seda,Produtos de higiene pessoal,9.95,19,julho
+399,2023-07-20,Ômega 3 Sundown,Produtos de bem-estar,49.9,30,julho
+400,2023-07-20,Biscoito Oreo,Produtos de conveniência,6.9,14,julho
+401,2023-07-21,Batom Maybelline,Produtos de beleza,29.9,11,julho
+402,2023-07-21,Chá de Camomila,Produtos de bem-estar,4.9,22,julho
+403,2023-07-22,Ibuprofeno 400mg,Medicamentos,8.9,29,julho
+404,2023-07-22,Perfume Natura,Produtos de beleza,89.99,17,julho
+405,2023-07-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,13,julho
+406,2023-07-23,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,26,julho
+407,2023-07-24,Shampoo Seda,Produtos de higiene pessoal,9.95,18,julho
+408,2023-07-24,Chocolate Snickers,Produtos de conveniência,5.49,6,julho
+409,2023-07-25,Biscoito Oreo,Produtos de conveniência,6.9,23,julho
+410,2023-07-25,Dipirona 500mg,Medicamentos,5.9,9,julho
+411,2023-07-26,Base Vult,Produtos de beleza,35.9,30,julho
+412,2023-07-26,Creme Dental Colgate,Produtos de higiene pessoal,6.95,15,julho
+413,2023-07-27,Ômega 3 Sundown,Produtos de bem-estar,49.9,19,julho
+414,2023-07-27,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,8,julho
+415,2023-07-28,Paracetamol 500mg,Medicamentos,7.5,21,julho
+416,2023-07-28,Fórmula Infantil Nan,Produtos para bebês,39.9,25,julho
+417,2023-07-29,Sabonete Lux,Produtos de higiene pessoal,3.5,12,julho
+418,2023-07-29,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,7,julho
+419,2023-07-29,Multivitamínico Centrum,Produtos de bem-estar,29.9,20,julho
+420,2023-07-29,Ibuprofeno 400mg,Medicamentos,8.9,16,julho
+421,2023-08-01,Shampoo Seda,Produtos de higiene pessoal,9.95,18,agosto
+422,2023-08-01,Batom Maybelline,Produtos de beleza,29.9,26,agosto
+423,2023-08-02,Perfume Natura,Produtos de beleza,89.99,14,agosto
+424,2023-08-02,Ômega 3 Sundown,Produtos de bem-estar,49.9,29,agosto
+425,2023-08-03,Dipirona 500mg,Medicamentos,5.9,9,agosto
+426,2023-08-03,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,23,agosto
+427,2023-08-04,Creme Dental Colgate,Produtos de higiene pessoal,6.95,12,agosto
+428,2023-08-04,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,20,agosto
+429,2023-08-05,Chá de Camomila,Produtos de bem-estar,4.9,7,agosto
+430,2023-08-05,Paracetamol 500mg,Medicamentos,7.5,27,agosto
+431,2023-08-06,Base Vult,Produtos de beleza,35.9,16,agosto
+432,2023-08-06,Ibuprofeno 400mg,Medicamentos,8.9,21,agosto
+433,2023-08-07,Lenço Umedecido Huggies,Produtos para bebês,9.9,10,agosto
+434,2023-08-07,Chocolate Snickers,Produtos de conveniência,5.49,18,agosto
+435,2023-08-08,Shampoo Seda,Produtos de higiene pessoal,9.95,25,agosto
+436,2023-08-08,Fórmula Infantil Nan,Produtos para bebês,39.9,13,agosto
+437,2023-08-09,Biscoito Oreo,Produtos de conveniência,6.9,30,agosto
+438,2023-08-09,Multivitamínico Centrum,Produtos de bem-estar,29.9,15,agosto
+439,2023-08-10,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,11,agosto
+440,2023-08-10,Sabonete Lux,Produtos de higiene pessoal,3.5,24,agosto
+441,2023-08-11,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,19,agosto
+442,2023-08-11,Creme Dental Colgate,Produtos de higiene pessoal,6.95,27,agosto
+443,2023-08-12,Perfume Natura,Produtos de beleza,89.99,8,agosto
+444,2023-08-12,Ômega 3 Sundown,Produtos de bem-estar,49.9,22,agosto
+445,2023-08-13,Paracetamol 500mg,Medicamentos,7.5,17,agosto
+446,2023-08-13,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,30,agosto
+447,2023-08-14,Batom Maybelline,Produtos de beleza,29.9,6,agosto
+448,2023-08-14,Fórmula Infantil Nan,Produtos para bebês,39.9,20,agosto
+449,2023-08-15,Chá de Camomila,Produtos de bem-estar,4.9,28,agosto
+450,2023-08-15,Dipirona 500mg,Medicamentos,5.9,12,agosto
+451,2023-08-16,Sabonete Lux,Produtos de higiene pessoal,3.5,23,agosto
+452,2023-08-16,Creme Dental Colgate,Produtos de higiene pessoal,6.95,14,agosto
+453,2023-08-17,Base Vult,Produtos de beleza,35.9,26,agosto
+454,2023-08-17,Multivitamínico Centrum,Produtos de bem-estar,29.9,19,agosto
+455,2023-08-18,Chá de Camomila,Produtos de bem-estar,4.9,10,agosto
+456,2023-08-18,Lenço Umedecido Huggies,Produtos para bebês,9.9,29,agosto
+457,2023-08-19,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,16,agosto
+458,2023-08-19,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,7,agosto
+459,2023-08-20,Biscoito Oreo,Produtos de conveniência,6.9,21,agosto
+460,2023-08-20,Dipirona 500mg,Medicamentos,5.9,9,agosto
+461,2023-08-21,Ibuprofeno 400mg,Medicamentos,8.9,24,agosto
+462,2023-08-21,Shampoo Seda,Produtos de higiene pessoal,9.95,15,agosto
+463,2023-08-22,Batom Maybelline,Produtos de beleza,29.9,30,agosto
+464,2023-08-22,Perfume Natura,Produtos de beleza,89.99,12,agosto
+465,2023-08-23,Ômega 3 Sundown,Produtos de bem-estar,49.9,27,agosto
+466,2023-08-23,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,18,agosto
+467,2023-08-24,Fórmula Infantil Nan,Produtos para bebês,39.9,5,agosto
+468,2023-08-24,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,25,agosto
+469,2023-08-25,Chocolate Snickers,Produtos de conveniência,5.49,13,agosto
+470,2023-08-25,Paracetamol 500mg,Medicamentos,7.5,19,agosto
+471,2023-08-26,Sabonete Lux,Produtos de higiene pessoal,3.5,21,agosto
+472,2023-08-26,Creme Dental Colgate,Produtos de higiene pessoal,6.95,7,agosto
+473,2023-08-27,Base Vult,Produtos de beleza,35.9,24,agosto
+474,2023-08-27,Multivitamínico Centrum,Produtos de bem-estar,29.9,16,agosto
+475,2023-08-28,Chá de Camomila,Produtos de bem-estar,4.9,30,agosto
+476,2023-08-28,Lenço Umedecido Huggies,Produtos para bebês,9.9,12,agosto
+477,2023-08-29,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,18,agosto
+478,2023-08-29,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,27,agosto
+479,2023-08-30,Biscoito Oreo,Produtos de conveniência,6.9,14,agosto
+480,2023-08-31,Dipirona 500mg,Medicamentos,5.9,22,agosto
+481,2023-09-01,Ibuprofeno 400mg,Medicamentos,8.9,17,setembro
+482,2023-09-01,Shampoo Seda,Produtos de higiene pessoal,9.95,28,setembro
+483,2023-09-02,Batom Maybelline,Produtos de beleza,29.9,12,setembro
+484,2023-09-02,Perfume Natura,Produtos de beleza,89.99,25,setembro
+485,2023-09-03,Ômega 3 Sundown,Produtos de bem-estar,49.9,10,setembro
+486,2023-09-03,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,22,setembro
+487,2023-09-04,Fórmula Infantil Nan,Produtos para bebês,39.9,14,setembro
+488,2023-09-04,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,30,setembro
+489,2023-09-05,Chocolate Snickers,Produtos de conveniência,5.49,8,setembro
+490,2023-09-05,Paracetamol 500mg,Medicamentos,7.5,27,setembro
+491,2023-09-06,Sabonete Lux,Produtos de higiene pessoal,3.5,16,setembro
+492,2023-09-06,Creme Dental Colgate,Produtos de higiene pessoal,6.95,21,setembro
+493,2023-09-07,Base Vult,Produtos de beleza,35.9,9,setembro
+494,2023-09-07,Multivitamínico Centrum,Produtos de bem-estar,29.9,20,setembro
+495,2023-09-08,Chá de Camomila,Produtos de bem-estar,4.9,26,setembro
+496,2023-09-08,Lenço Umedecido Huggies,Produtos para bebês,9.9,15,setembro
+497,2023-09-09,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,19,setembro
+498,2023-09-09,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,7,setembro
+499,2023-09-10,Biscoito Oreo,Produtos de conveniência,6.9,23,setembro
+500,2023-09-10,Dipirona 500mg,Medicamentos,5.9,11,setembro
+501,2023-09-11,Sabonete Lux,Produtos de higiene pessoal,3.5,28,setembro
+502,2023-09-11,Creme Dental Colgate,Produtos de higiene pessoal,6.95,14,setembro
+503,2023-09-12,Base Vult,Produtos de beleza,35.9,24,setembro
+504,2023-09-12,Multivitamínico Centrum,Produtos de bem-estar,29.9,9,setembro
+505,2023-09-13,Chá de Camomila,Produtos de bem-estar,4.9,21,setembro
+506,2023-09-13,Lenço Umedecido Huggies,Produtos para bebês,9.9,18,setembro
+507,2023-09-14,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,5,setembro
+508,2023-09-14,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,29,setembro
+509,2023-09-15,Biscoito Oreo,Produtos de conveniência,6.9,13,setembro
+510,2023-09-15,Paracetamol 500mg,Medicamentos,7.5,19,setembro
+511,2023-09-16,Ibuprofeno 400mg,Medicamentos,8.9,12,setembro
+512,2023-09-16,Shampoo Seda,Produtos de higiene pessoal,9.95,25,setembro
+513,2023-09-17,Batom Maybelline,Produtos de beleza,29.9,8,setembro
+514,2023-09-17,Perfume Natura,Produtos de beleza,89.99,22,setembro
+515,2023-09-18,Ômega 3 Sundown,Produtos de bem-estar,49.9,27,setembro
+516,2023-09-18,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,10,setembro
+517,2023-09-19,Fórmula Infantil Nan,Produtos para bebês,39.9,30,setembro
+518,2023-09-19,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,17,setembro
+519,2023-09-20,Chocolate Snickers,Produtos de conveniência,5.49,6,setembro
+520,2023-09-20,Dipirona 500mg,Medicamentos,5.9,20,setembro
+521,2023-09-21,Sabonete Lux,Produtos de higiene pessoal,3.5,15,setembro
+522,2023-09-21,Creme Dental Colgate,Produtos de higiene pessoal,6.95,29,setembro
+523,2023-09-22,Base Vult,Produtos de beleza,35.9,11,setembro
+524,2023-09-22,Multivitamínico Centrum,Produtos de bem-estar,29.9,24,setembro
+525,2023-09-23,Chá de Camomila,Produtos de bem-estar,4.9,13,setembro
+526,2023-09-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,26,setembro
+527,2023-09-24,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,7,setembro
+528,2023-09-24,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,30,setembro
+529,2023-09-25,Biscoito Oreo,Produtos de conveniência,6.9,18,setembro
+530,2023-09-25,Paracetamol 500mg,Medicamentos,7.5,14,setembro
+531,2023-09-26,Ibuprofeno 400mg,Medicamentos,8.9,21,setembro
+532,2023-09-26,Shampoo Seda,Produtos de higiene pessoal,9.95,16,setembro
+533,2023-09-27,Batom Maybelline,Produtos de beleza,29.9,27,setembro
+534,2023-09-27,Perfume Natura,Produtos de beleza,89.99,12,setembro
+535,2023-09-28,Ômega 3 Sundown,Produtos de bem-estar,49.9,29,setembro
+536,2023-09-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,8,setembro
+537,2023-09-29,Fórmula Infantil Nan,Produtos para bebês,39.9,23,setembro
+538,2023-09-29,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,19,setembro
+539,2023-09-30,Chocolate Snickers,Produtos de conveniência,5.49,11,setembro
+540,2023-09-30,Dipirona 500mg,Medicamentos,5.9,24,setembro
+541,2023-10-01,Sabonete Lux,Produtos de higiene pessoal,3.5,17,outubro
+542,2023-10-01,Creme Dental Colgate,Produtos de higiene pessoal,6.95,25,outubro
+543,2023-10-02,Base Vult,Produtos de beleza,35.9,12,outubro
+544,2023-10-02,Multivitamínico Centrum,Produtos de bem-estar,29.9,28,outubro
+545,2023-10-03,Chá de Camomila,Produtos de bem-estar,4.9,14,outubro
+546,2023-10-03,Lenço Umedecido Huggies,Produtos para bebês,9.9,30,outubro
+547,2023-10-04,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,9,outubro
+548,2023-10-04,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,21,outubro
+549,2023-10-05,Biscoito Oreo,Produtos de conveniência,6.9,16,outubro
+550,2023-10-05,Paracetamol 500mg,Medicamentos,7.5,27,outubro
+551,2023-10-06,Ibuprofeno 400mg,Medicamentos,8.9,18,outubro
+552,2023-10-06,Shampoo Seda,Produtos de higiene pessoal,9.95,11,outubro
+553,2023-10-07,Batom Maybelline,Produtos de beleza,29.9,29,outubro
+554,2023-10-07,Perfume Natura,Produtos de beleza,89.99,13,outubro
+555,2023-10-08,Ômega 3 Sundown,Produtos de bem-estar,49.9,22,outubro
+556,2023-10-08,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,7,outubro
+557,2023-10-09,Fórmula Infantil Nan,Produtos para bebês,39.9,26,outubro
+558,2023-10-09,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,15,outubro
+559,2023-10-10,Chocolate Snickers,Produtos de conveniência,5.49,20,outubro
+560,2023-10-10,Dipirona 500mg,Medicamentos,5.9,10,outubro
+561,2023-10-11,Sabonete Lux,Produtos de higiene pessoal,3.5,23,outubro
+562,2023-10-11,Creme Dental Colgate,Produtos de higiene pessoal,6.95,9,outubro
+563,2023-10-12,Base Vult,Produtos de beleza,35.9,27,outubro
+564,2023-10-12,Multivitamínico Centrum,Produtos de bem-estar,29.9,12,outubro
+565,2023-10-13,Chá de Camomila,Produtos de bem-estar,4.9,19,outubro
+566,2023-10-13,Lenço Umedecido Huggies,Produtos para bebês,9.9,16,outubro
+567,2023-10-14,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,30,outubro
+568,2023-10-14,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,8,outubro
+569,2023-10-15,Biscoito Oreo,Produtos de conveniência,6.9,25,outubro
+570,2023-10-15,Paracetamol 500mg,Medicamentos,7.5,13,outubro
+571,2023-10-16,Ibuprofeno 400mg,Medicamentos,8.9,21,outubro
+572,2023-10-16,Shampoo Seda,Produtos de higiene pessoal,9.95,17,outubro
+573,2023-10-17,Batom Maybelline,Produtos de beleza,29.9,28,outubro
+574,2023-10-17,Perfume Natura,Produtos de beleza,89.99,15,outubro
+575,2023-10-18,Ômega 3 Sundown,Produtos de bem-estar,49.9,20,outubro
+576,2023-10-18,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,10,outubro
+577,2023-10-19,Fórmula Infantil Nan,Produtos para bebês,39.9,26,outubro
+578,2023-10-19,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,14,outubro
+579,2023-10-20,Chocolate Snickers,Produtos de conveniência,5.49,12,outubro
+580,2023-10-20,Dipirona 500mg,Medicamentos,5.9,29,outubro
+581,2023-10-21,Sabonete Lux,Produtos de higiene pessoal,3.5,18,outubro
+582,2023-10-21,Creme Dental Colgate,Produtos de higiene pessoal,6.95,24,outubro
+583,2023-10-22,Base Vult,Produtos de beleza,35.9,11,outubro
+584,2023-10-22,Multivitamínico Centrum,Produtos de bem-estar,29.9,12,outubro
+585,2023-10-23,Chá de Camomila,Produtos de bem-estar,4.9,16,outubro
+586,2023-10-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,30,outubro
+587,2023-10-24,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,9,outubro
+588,2023-10-24,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,21,outubro
+589,2023-10-25,Biscoito Oreo,Produtos de conveniência,6.9,19,outubro
+590,2023-10-25,Paracetamol 500mg,Medicamentos,7.5,13,outubro
+591,2023-10-26,Ibuprofeno 400mg,Medicamentos,8.9,24,outubro
+592,2023-10-26,Shampoo Seda,Produtos de higiene pessoal,9.95,15,outubro
+593,2023-10-27,Batom Maybelline,Produtos de beleza,29.9,29,outubro
+594,2023-10-27,Perfume Natura,Produtos de beleza,89.99,12,outubro
+595,2023-10-28,Ômega 3 Sundown,Produtos de bem-estar,49.9,22,outubro
+596,2023-10-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,10,outubro
+597,2023-10-29,Fórmula Infantil Nan,Produtos para bebês,39.9,26,outubro
+598,2023-10-29,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,17,outubro
+599,2023-10-30,Lenço Umedecido Huggies,Produtos para bebês,9.9,14,outubro
+600,2023-10-31,Dipirona 500mg,Medicamentos,5.9,20,outubro
+601,2023-11-01,Ibuprofeno 400mg,Medicamentos,8.9,18,novembro
+602,2023-11-01,Shampoo Seda,Produtos de higiene pessoal,9.95,27,novembro
+603,2023-11-02,Batom Maybelline,Produtos de beleza,29.9,13,novembro
+604,2023-11-02,Perfume Natura,Produtos de beleza,89.99,22,novembro
+605,2023-11-03,Ômega 3 Sundown,Produtos de bem-estar,49.9,9,novembro
+606,2023-11-03,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,25,novembro
+607,2023-11-04,Fórmula Infantil Nan,Produtos para bebês,39.9,16,novembro
+608,2023-11-04,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,21,novembro
+609,2023-11-05,Chocolate Snickers,Produtos de conveniência,5.49,10,novembro
+610,2023-11-05,Paracetamol 500mg,Medicamentos,7.5,28,novembro
+611,2023-11-06,Ibuprofeno 400mg,Medicamentos,8.9,12,novembro
+612,2023-11-06,Shampoo Seda,Produtos de higiene pessoal,9.95,20,novembro
+613,2023-11-07,Batom Maybelline,Produtos de beleza,29.9,29,novembro
+614,2023-11-07,Perfume Natura,Produtos de beleza,89.99,14,novembro
+615,2023-11-08,Ômega 3 Sundown,Produtos de bem-estar,49.9,17,novembro
+616,2023-11-08,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,30,novembro
+617,2023-11-09,Fórmula Infantil Nan,Produtos para bebês,39.9,11,novembro
+618,2023-11-09,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,26,novembro
+619,2023-11-10,Chocolate Snickers,Produtos de conveniência,5.49,19,novembro
+620,2023-11-10,Dipirona 500mg,Medicamentos,5.9,15,novembro
+621,2023-11-11,Sabonete Lux,Produtos de higiene pessoal,3.5,23,novembro
+622,2023-11-11,Creme Dental Colgate,Produtos de higiene pessoal,6.95,12,novembro
+623,2023-11-12,Base Vult,Produtos de beleza,35.9,28,novembro
+624,2023-11-12,Multivitamínico Centrum,Produtos de bem-estar,29.9,9,novembro
+625,2023-11-13,Chá de Camomila,Produtos de bem-estar,4.9,21,novembro
+626,2023-11-13,Base Vult,Produtos de beleza,35.9,16,novembro
+627,2023-11-14,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,24,novembro
+628,2023-11-14,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,10,novembro
+629,2023-11-15,Biscoito Oreo,Produtos de conveniência,6.9,27,novembro
+630,2023-11-15,Paracetamol 500mg,Medicamentos,7.5,13,novembro
+631,2023-11-16,Ibuprofeno 400mg,Medicamentos,8.9,22,novembro
+632,2023-11-16,Shampoo Seda,Produtos de higiene pessoal,9.95,15,novembro
+633,2023-11-17,Batom Maybelline,Produtos de beleza,29.9,26,novembro
+634,2023-11-17,Perfume Natura,Produtos de beleza,89.99,18,novembro
+635,2023-11-18,Ômega 3 Sundown,Produtos de bem-estar,49.9,11,novembro
+636,2023-11-18,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,29,novembro
+637,2023-11-19,Fórmula Infantil Nan,Produtos para bebês,39.9,20,novembro
+638,2023-11-19,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,16,novembro
+639,2023-11-20,Chocolate Snickers,Produtos de conveniência,5.49,12,novembro
+640,2023-11-20,Dipirona 500mg,Medicamentos,5.9,24,novembro
+641,2023-11-21,Perfume Natura,Produtos de beleza,89.99,17,novembro
+642,2023-11-21,Creme Dental Colgate,Produtos de higiene pessoal,6.95,30,novembro
+643,2023-11-22,Base Vult,Produtos de beleza,35.9,15,novembro
+644,2023-11-22,Paracetamol 500mg,Medicamentos,7.5,28,novembro
+645,2023-11-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,19,novembro
+646,2023-11-23,Ibuprofeno 400mg,Medicamentos,8.9,10,novembro
+647,2023-11-24,Sabonete Lux,Produtos de higiene pessoal,3.5,27,novembro
+648,2023-11-24,Dipirona 500mg,Medicamentos,5.9,14,novembro
+649,2023-11-25,Biscoito Oreo,Produtos de conveniência,6.9,11,novembro
+650,2023-11-25,Paracetamol 500mg,Medicamentos,7.5,23,novembro
+651,2023-11-26,Ibuprofeno 400mg,Medicamentos,8.9,16,novembro
+652,2023-11-26,Shampoo Seda,Produtos de higiene pessoal,9.95,30,novembro
+653,2023-11-27,Batom Maybelline,Produtos de beleza,29.9,13,novembro
+654,2023-11-27,Perfume Natura,Produtos de beleza,89.99,21,novembro
+655,2023-11-28,Ômega 3 Sundown,Produtos de bem-estar,49.9,12,novembro
+656,2023-11-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,25,novembro
+657,2023-11-29,Fórmula Infantil Nan,Produtos para bebês,39.9,18,novembro
+658,2023-11-29,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,26,novembro
+659,2023-11-30,Chocolate Snickers,Produtos de conveniência,5.49,14,novembro
+660,2023-11-30,Dipirona 500mg,Medicamentos,5.9,20,novembro
+661,2023-12-01,Ibuprofeno 400mg,Medicamentos,8.9,19,dezembro
+662,2023-12-01,Shampoo Seda,Produtos de higiene pessoal,9.95,27,dezembro
+663,2023-12-02,Batom Maybelline,Produtos de beleza,29.9,12,dezembro
+664,2023-12-02,Perfume Natura,Produtos de beleza,89.99,25,dezembro
+665,2023-12-03,Ômega 3 Sundown,Produtos de bem-estar,49.9,14,dezembro
+666,2023-12-03,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,30,dezembro
+667,2023-12-04,Fórmula Infantil Nan,Produtos para bebês,39.9,10,dezembro
+668,2023-12-04,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,23,dezembro
+669,2023-12-05,Chocolate Snickers,Produtos de conveniência,5.49,16,dezembro
+670,2023-12-05,Paracetamol 500mg,Medicamentos,7.5,28,dezembro
+671,2023-12-06,Ibuprofeno 400mg,Medicamentos,8.9,21,dezembro
+672,2023-12-06,Shampoo Seda,Produtos de higiene pessoal,9.95,13,dezembro
+673,2023-12-07,Batom Maybelline,Produtos de beleza,29.9,29,dezembro
+674,2023-12-07,Perfume Natura,Produtos de beleza,89.99,15,dezembro
+675,2023-12-08,Ômega 3 Sundown,Produtos de bem-estar,49.9,22,dezembro
+676,2023-12-08,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,11,dezembro
+677,2023-12-09,Fórmula Infantil Nan,Produtos para bebês,39.9,26,dezembro
+678,2023-12-09,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,18,dezembro
+679,2023-12-10,Chocolate Snickers,Produtos de conveniência,5.49,20,dezembro
+680,2023-12-10,Dipirona 500mg,Medicamentos,5.9,12,dezembro
+681,2023-12-11,Sabonete Lux,Produtos de higiene pessoal,3.5,24,dezembro
+682,2023-12-11,Creme Dental Colgate,Produtos de higiene pessoal,6.95,17,dezembro
+683,2023-12-12,Base Vult,Produtos de beleza,35.9,28,dezembro
+684,2023-12-12,Multivitamínico Centrum,Produtos de bem-estar,29.9,10,dezembro
+685,2023-12-13,Chá de Camomila,Produtos de bem-estar,4.9,19,dezembro
+686,2023-12-13,Lenço Umedecido Huggies,Produtos para bebês,9.9,15,dezembro
+687,2023-12-14,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,30,dezembro
+688,2023-12-14,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,9,dezembro
+689,2023-12-15,Biscoito Oreo,Produtos de conveniência,6.9,26,dezembro
+690,2023-12-15,Paracetamol 500mg,Medicamentos,7.5,13,dezembro
+691,2023-12-16,Ibuprofeno 400mg,Medicamentos,8.9,20,dezembro
+692,2023-12-16,Shampoo Seda,Produtos de higiene pessoal,9.95,14,dezembro
+693,2023-12-17,Batom Maybelline,Produtos de beleza,29.9,27,dezembro
+694,2023-12-17,Perfume Natura,Produtos de beleza,89.99,11,dezembro
+695,2023-12-18,Ômega 3 Sundown,Produtos de bem-estar,49.9,23,dezembro
+696,2023-12-18,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,12,dezembro
+697,2023-12-19,Fórmula Infantil Nan,Produtos para bebês,39.9,18,dezembro
+698,2023-12-19,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,29,dezembro
+699,2023-12-20,Chocolate Snickers,Produtos de conveniência,5.49,15,dezembro
+700,2023-12-20,Dipirona 500mg,Medicamentos,5.9,21,dezembro
+701,2023-12-21,Sabonete Lux,Produtos de higiene pessoal,3.5,16,dezembro
+702,2023-12-21,Creme Dental Colgate,Produtos de higiene pessoal,6.95,30,dezembro
+703,2023-12-22,Base Vult,Produtos de beleza,35.9,13,dezembro
+704,2023-12-22,Multivitamínico Centrum,Produtos de bem-estar,29.9,25,dezembro
+705,2023-12-23,Chá de Camomila,Produtos de bem-estar,4.9,11,dezembro
+706,2023-12-23,Lenço Umedecido Huggies,Produtos para bebês,9.9,28,dezembro
+707,2023-12-24,Gaze Estéril,Produtos hospitalares e de primeiros socorros,6.9,17,dezembro
+708,2023-12-24,Termômetro Digital,Produtos hospitalares e de primeiros socorros,45.9,20,dezembro
+709,2023-12-25,Biscoito Oreo,Produtos de conveniência,6.9,14,dezembro
+710,2023-12-25,Paracetamol 500mg,Medicamentos,7.5,27,dezembro
+711,2023-12-26,Ibuprofeno 400mg,Medicamentos,8.9,12,dezembro
+712,2023-12-26,Shampoo Seda,Produtos de higiene pessoal,9.95,19,dezembro
+713,2023-12-27,Batom Maybelline,Produtos de beleza,29.9,22,dezembro
+714,2023-12-27,Perfume Natura,Produtos de beleza,89.99,15,dezembro
+715,2023-12-28,Ômega 3 Sundown,Produtos de bem-estar,49.9,29,dezembro
+716,2023-12-28,Fralda Pampers Confort Sec G,Produtos para bebês,189.9,16,dezembro
+717,2023-12-29,Fórmula Infantil Nan,Produtos para bebês,39.9,18,dezembro
+718,2023-12-29,Álcool 70%,Produtos hospitalares e de primeiros socorros,3.9,26,dezembro
+719,2023-12-30,Chocolate Snickers,Produtos de conveniência,5.49,10,dezembro
+720,2023-12-31,Dipirona 500mg,Medicamentos,5.9,24,dezembro
