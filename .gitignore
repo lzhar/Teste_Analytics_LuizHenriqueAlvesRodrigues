@@ -5,3 +5,4 @@ __pycache__/
 .idea/
 .vscode/
 dbvendas
+data_clean.csv
