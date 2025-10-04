@@ -1,5 +1,39 @@
 # 🧪 Teste para Analytics — Luiz Henrique
 
+# Instalação do SQLite3
+
+Para rodar o projeto e realizar consultas SQL, é necessário ter o **SQLite3** instalado e configurado no sistema. Caso não seja possível, será disponibilizado um **print** com o resultado da consulta.
+
+---
+
+## Linux
+
+No Linux (Ubuntu/Debian), basta executar os seguintes comandos no terminal:
+
+```bash
+sudo apt update
+sudo apt install sqlite3
+```
+
+# 📝 Passo a Passo
+
+1. 📂 **Clonar o repositório**.  
+2. ⚙️ **Rodar o arquivo** `setup_projeto.py`.  
+3. 🐍 **Ativar o ambiente virtual** (`venv`).  
+4. 🧹 **Rodar o arquivo** `limpeza_dados.py`.  
+5. 📓 **Abrir o notebook** `.ipynb`.  
+   - A primeira célula pedirá a seleção de um **kernel**.  
+   - Escolha o kernel do `venv`.  
+6. 📊 **Rodar o notebook** `analise_dos_dados.ipynb` **na ordem das células**.  
+7. 🔢 Em determinado momento, o sistema pedirá uma **entrada numérica**.  
+   - Informe um número de **0 a 20**.  
+   - Nos exemplos do relatório, foram utilizados os números **1** e **17**.  
+8. 💾 **Rodar a célula responsável pelo banco de dados**.  
+9. 💻 **Para realizar as consultas** do arquivo `consultas.sql`, rode o seguinte comando no terminal:  
+   ```cmd
+   sqlite3 dbvendas < consultas.sql
+
+
 Este projeto foi desenvolvido em **Python** para simular e analisar dados de vendas de uma farmácia fictícia.
 As bibliotecas utilizadas foram  🐼 **Pandas**, 🧮**matplotlib**, 🗄️**sqlite3** e 📄**csv**
 
