@@ -27,7 +27,7 @@ Instale as dependências com:
 ```bash
 pip install -r requirements.txt
 
-
+```
 
 ## 🏗️ Estrutura do Código — `limpeza_dados.py`
 
